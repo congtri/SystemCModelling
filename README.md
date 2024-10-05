@@ -5,18 +5,21 @@ This repository is designed for SystemC modeling implementations. It includes Sy
 ## Folder Structure
 
 SystemCModelling
-│
-├── doc                    # Documentation files
-├── libs                   # Libraries
-│   ├── systemc-3.0.0     # SystemC library
-│   └── others...         # Additional libraries
-│
-├── models                 # Model implementations
-│   ├── examples           # Example models
-│   ├── Initiator2Receiver # Specific model: Initiator to Receiver
-│   └── others...         # Other models
-│
-└── README.md              # This README file
+|
+|-- doc                     # Documentation files
+|-- libs                    # Libraries
+|    |-- systemc-3.0.0      # SystemC library source code
+|    |-- others...          # Additional libraries
+|    |
+|    |-- macm1build_libs    # Built libraries for MacOs M1
+|        |-- systemc-3.0.0      # Built SystemC library for Mac M1
+|
+|-- models                  # Model implementations
+|    |-- examples           # Example models
+|    |-- Initiator2Receiver # Specific model: Initiator to Receiver
+|    |-- others...          # Other models
+|
+|-- README.md               # This README file
 
 ## Building SystemC on Mac M1
 
