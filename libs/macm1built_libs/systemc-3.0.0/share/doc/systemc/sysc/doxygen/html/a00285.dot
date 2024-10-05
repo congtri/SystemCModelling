@@ -1,0 +1,29 @@
+digraph "sysc/communication/sc_mutex.h"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=FreeSans,fontsize=10,labelfontname=FreeSans,labelfontsize=10];
+  node [fontname=FreeSans,fontsize=10,shape=box,height=0.2,width=0.4];
+  Node1 [id="Node000001",label="sysc/communication\l/sc_mutex.h",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="sysc/kernel/sc_event.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$a00398.html",tooltip=" "];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="sysc/kernel/sc_cmnhdr.h",height=0.2,width=0.4,color="red", fillcolor="#FFF0F0", style="filled",URL="$a00428.html",tooltip=" "];
+  Node2 -> Node8 [id="edge3_Node000002_Node000008",color="steelblue1",style="solid",tooltip=" "];
+  Node8 [id="Node000008",label="sysc/kernel/sc_kernel\l_ids.h",height=0.2,width=0.4,color="red", fillcolor="#FFF0F0", style="filled",URL="$a00386.html",tooltip=" "];
+  Node2 -> Node13 [id="edge4_Node000002_Node000013",color="steelblue1",style="solid",tooltip=" "];
+  Node13 [id="Node000013",label="sysc/kernel/sc_simcontext.h",height=0.2,width=0.4,color="red", fillcolor="#FFF0F0", style="filled",URL="$a00377.html",tooltip=" "];
+  Node13 -> Node3 [id="edge5_Node000013_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node2 -> Node51 [id="edge6_Node000002_Node000051",color="steelblue1",style="solid",tooltip=" "];
+  Node51 [id="Node000051",label="sysc/communication\l/sc_writer_policy.h",height=0.2,width=0.4,color="red", fillcolor="#FFF0F0", style="filled",URL="$a00248.html",tooltip=" "];
+  Node2 -> Node53 [id="edge7_Node000002_Node000053",color="steelblue1",style="solid",tooltip=" "];
+  Node53 [id="Node000053",label="sysc/utils/sc_ptr_flag.h",height=0.2,width=0.4,color="red", fillcolor="#FFF0F0", style="filled",URL="$a00239.html",tooltip=" "];
+  Node53 -> Node3 [id="edge8_Node000053_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node16 [id="edge9_Node000001_Node000016",color="steelblue1",style="solid",tooltip=" "];
+  Node16 [id="Node000016",label="sysc/kernel/sc_object.h",height=0.2,width=0.4,color="red", fillcolor="#FFF0F0", style="filled",URL="$a00380.html",tooltip=" "];
+  Node1 -> Node54 [id="edge10_Node000001_Node000054",color="steelblue1",style="solid",tooltip=" "];
+  Node54 [id="Node000054",label="sysc/kernel/sc_wait.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$a00332.html",tooltip=" "];
+  Node54 -> Node13 [id="edge11_Node000054_Node000013",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node49 [id="edge12_Node000001_Node000049",color="steelblue1",style="solid",tooltip=" "];
+  Node49 [id="Node000049",label="sysc/communication\l/sc_mutex_if.h",height=0.2,width=0.4,color="red", fillcolor="#FFF0F0", style="filled",URL="$a00245.html",tooltip=" "];
+}

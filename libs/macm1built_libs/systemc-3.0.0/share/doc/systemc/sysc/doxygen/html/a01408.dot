@@ -1,0 +1,39 @@
+digraph "sc_core::sc_signal_t&lt; T, POL &gt;"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=FreeSans,fontsize=10,labelfontname=FreeSans,labelfontsize=10];
+  node [fontname=FreeSans,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="sc_core::sc_signal\l_t\< T, POL \>",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node2 -> Node1 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="sc_core::sc_signal\l_inout_if\< T \>",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$a01441.html",tooltip=" "];
+  Node3 -> Node2 [id="edge2_Node000002_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="sc_core::sc_signal\l_in_if\< T \>",height=0.2,width=0.4,color="red", fillcolor="#FFF0F0", style="filled",URL="$a01425.html",tooltip=" "];
+  Node5 -> Node2 [id="edge3_Node000002_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="sc_core::sc_signal\l_write_if\< T \>",height=0.2,width=0.4,color="red", fillcolor="#FFF0F0", style="filled",URL="$a01437.html",tooltip=" "];
+  Node6 -> Node1 [id="edge4_Node000001_Node000006",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="sc_core::sc_signal\l_channel",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$a01405.html",tooltip=" "];
+  Node7 -> Node6 [id="edge5_Node000006_Node000007",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="sc_core::sc_prim_channel",height=0.2,width=0.4,color="red", fillcolor="#FFF0F0", style="filled",URL="$a01389.html",tooltip=" "];
+  Node9 -> Node1 [id="edge6_Node000001_Node000009",dir="back",color="darkgreen",style="solid",tooltip=" "];
+  Node9 [id="Node000009",label="sc_core::sc_writer\l_policy_check\< POL \>",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$a01525.html",tooltip=" "];
+  Node1 -> Node10 [id="edge7_Node000001_Node000010",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node10 [id="Node000010",label="sc_core::sc_signal\l\< T, SC_DEFAULT_WRITER\l_POLICY \>",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$a01413.html",tooltip=" "];
+  Node10 -> Node11 [id="edge8_Node000010_Node000011",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node11 [id="Node000011",label="sc_core::sc_buffer\l\< T, POL \>",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$a01277.html",tooltip=" "];
+  Node1 -> Node12 [id="edge9_Node000001_Node000012",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node12 [id="Node000012",label="sc_core::sc_signal\l\< bool, SC_ONE_WRITER \>",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$a01413.html",tooltip=" "];
+  Node12 -> Node13 [id="edge10_Node000012_Node000013",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node13 [id="Node000013",label="sc_core::sc_clock",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$a01281.html",tooltip=" "];
+  Node1 -> Node14 [id="edge11_Node000001_Node000014",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node14 [id="Node000014",label="sc_core::sc_signal\l\< sc_dt::sc_logic, SC\l_MANY_WRITERS \>",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$a01413.html",tooltip=" "];
+  Node14 -> Node15 [id="edge12_Node000014_Node000015",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node15 [id="Node000015",label="sc_core::sc_signal\l_resolved",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$a01477.html",tooltip=" "];
+  Node1 -> Node16 [id="edge13_Node000001_Node000016",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node16 [id="Node000016",label="sc_core::sc_signal\l\< sc_dt::sc_lv\< W \>,\l SC_MANY_WRITERS \>",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$a01413.html",tooltip=" "];
+  Node16 -> Node17 [id="edge14_Node000016_Node000017",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node17 [id="Node000017",label="sc_core::sc_signal\l_rv\< W \>",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$a01497.html",tooltip=" "];
+  Node1 -> Node18 [id="edge15_Node000001_Node000018",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node18 [id="Node000018",label="sc_core::sc_signal\l\< IF, POL \>",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$a01413.html",tooltip=" "];
+}

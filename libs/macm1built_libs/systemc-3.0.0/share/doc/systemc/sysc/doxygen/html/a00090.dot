@@ -1,0 +1,24 @@
+digraph "sysc/datatypes/fx/scfx_rep.h"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=FreeSans,fontsize=10,labelfontname=FreeSans,labelfontsize=10];
+  node [fontname=FreeSans,fontsize=10,shape=box,height=0.2,width=0.4];
+  Node1 [id="Node000001",label="sysc/datatypes/fx/scfx\l_rep.h",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="climits",height=0.2,width=0.4,color="grey60", fillcolor="#E0E0E0", style="filled",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="sysc/datatypes/fx/scfx\l_mant.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$a00062.html",tooltip=" "];
+  Node3 -> Node4 [id="edge3_Node000003_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="sysc/datatypes/fx/scfx\l_ieee.h",height=0.2,width=0.4,color="red", fillcolor="#FFF0F0", style="filled",URL="$a00110.html",tooltip=" "];
+  Node3 -> Node31 [id="edge4_Node000003_Node000031",color="steelblue1",style="solid",tooltip=" "];
+  Node31 [id="Node000031",label="sysc/datatypes/fx/scfx\l_utils.h",height=0.2,width=0.4,color="red", fillcolor="#FFF0F0", style="filled",URL="$a00116.html",tooltip=" "];
+  Node31 -> Node32 [id="edge5_Node000031_Node000032",color="steelblue1",style="solid",tooltip=" "];
+  Node32 [id="Node000032",label="sysc/datatypes/fx/scfx\l_params.h",height=0.2,width=0.4,color="red", fillcolor="#FFF0F0", style="filled",URL="$a00122.html",tooltip=" "];
+  Node31 -> Node56 [id="edge6_Node000031_Node000056",color="steelblue1",style="solid",tooltip=" "];
+  Node56 [id="Node000056",label="sysc/datatypes/fx/scfx\l_string.h",height=0.2,width=0.4,color="red", fillcolor="#FFF0F0", style="filled",URL="$a00068.html",tooltip=" "];
+  Node3 -> Node57 [id="edge7_Node000003_Node000057",color="steelblue1",style="solid",tooltip=" "];
+  Node57 [id="Node000057",label="sysc/kernel/sc_macros.h",height=0.2,width=0.4,color="red", fillcolor="#FFF0F0", style="filled",URL="$a00374.html",tooltip=" "];
+  Node1 -> Node32 [id="edge8_Node000001_Node000032",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node56 [id="edge9_Node000001_Node000056",color="steelblue1",style="solid",tooltip=" "];
+}

@@ -1,0 +1,17 @@
+digraph "tlm_utils::simple_target_socket_tagged_b&lt; MODULE, BUSWIDTH, TYPES, POL &gt;"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=FreeSans,fontsize=10,labelfontname=FreeSans,labelfontsize=10];
+  node [fontname=FreeSans,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="tlm_utils::simple_target\l_socket_tagged_b\< MODULE,\l BUSWIDTH, TYPES, POL \>",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node2 -> Node1 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="tlm::tlm_target_socket\l\< BUSWIDTH, TYPES, 1,\l sc_core::SC_ONE_OR_MORE\l_BOUND \>",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$a01261.html",tooltip=" "];
+  Node3 -> Node2 [id="edge2_Node000002_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="tlm::tlm_base_target\l_socket\< BUSWIDTH, tlm\l_fw_transport_if\< TYPES\l \>, tlm_bw_transport_if\l\< TYPES \>, N, POL \>",height=0.2,width=0.4,color="red", fillcolor="#FFF0F0", style="filled",URL="$a01249.html",tooltip=" "];
+  Node7 -> Node1 [id="edge3_Node000001_Node000007",dir="back",color="darkgreen",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="tlm_utils::simple_socket_base",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$a01269.html",tooltip=" "];
+  Node8 -> Node7 [id="edge4_Node000007_Node000008",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node8 [id="Node000008",label="tlm_utils::convenience\l_socket_base",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$a01265.html",tooltip=" "];
+}

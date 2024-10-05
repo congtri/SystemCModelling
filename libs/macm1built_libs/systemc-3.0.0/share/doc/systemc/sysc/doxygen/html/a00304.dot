@@ -1,0 +1,41 @@
+digraph "sysc/communication/sc_interface.h"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=FreeSans,fontsize=10,labelfontname=FreeSans,labelfontsize=10];
+  node [fontname=FreeSans,fontsize=10,shape=box,height=0.2,width=0.4];
+  Node1 [id="Node000001",label="sysc/communication\l/sc_interface.h",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="sysc/communication\l/sc_event_queue.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$a00299.html",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="sysc/communication\l/sc_export.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$a00317.html",tooltip=" "];
+  Node3 -> Node4 [id="edge3_Node000003_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="sysc/kernel/sc_process.h",height=0.2,width=0.4,color="red", fillcolor="#FFF0F0", style="filled",URL="$a00437.html",tooltip=" "];
+  Node4 -> Node5 [id="edge4_Node000004_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="sysc/communication\l/sc_port.h",height=0.2,width=0.4,color="red", fillcolor="#FFF0F0", style="filled",URL="$a00281.html",tooltip=" "];
+  Node5 -> Node2 [id="edge5_Node000005_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 -> Node21 [id="edge6_Node000005_Node000021",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node21 [id="Node000021",label="sysc/communication\l/sc_fifo_ports.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$a00260.html",tooltip=" "];
+  Node3 -> Node11 [id="edge7_Node000003_Node000011",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node11 [id="Node000011",label="sysc/kernel/sc_spawn\l_options.h",height=0.2,width=0.4,color="red", fillcolor="#FFF0F0", style="filled",URL="$a00395.html",tooltip=" "];
+  Node1 -> Node80 [id="edge8_Node000001_Node000080",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node80 [id="Node000080",label="sysc/communication\l/sc_fifo_ifs.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$a00269.html",tooltip=" "];
+  Node80 -> Node35 [id="edge9_Node000080_Node000035",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node35 [id="Node000035",label="sysc/communication\l/sc_fifo.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$a00272.html",tooltip=" "];
+  Node80 -> Node21 [id="edge10_Node000080_Node000021",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node81 [id="edge11_Node000001_Node000081",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node81 [id="Node000081",label="sysc/communication\l/sc_mutex_if.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$a00245.html",tooltip=" "];
+  Node81 -> Node82 [id="edge12_Node000081_Node000082",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node82 [id="Node000082",label="sysc/communication\l/sc_host_mutex.h",height=0.2,width=0.4,color="red", fillcolor="#FFF0F0", style="filled",URL="$a00311.html",tooltip=" "];
+  Node81 -> Node36 [id="edge13_Node000081_Node000036",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node36 [id="Node000036",label="sysc/communication\l/sc_mutex.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$a00284.html",tooltip=" "];
+  Node1 -> Node5 [id="edge14_Node000001_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node83 [id="edge15_Node000001_Node000083",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node83 [id="Node000083",label="sysc/communication\l/sc_semaphore_if.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$a00314.html",tooltip=" "];
+  Node83 -> Node84 [id="edge16_Node000083_Node000084",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node84 [id="Node000084",label="sysc/communication\l/sc_host_semaphore.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$a00257.html",tooltip=" "];
+  Node83 -> Node37 [id="edge17_Node000083_Node000037",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node37 [id="Node000037",label="sysc/communication\l/sc_semaphore.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$a00251.html",tooltip=" "];
+  Node1 -> Node32 [id="edge18_Node000001_Node000032",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node32 [id="Node000032",label="sysc/communication\l/sc_signal_ifs.h",height=0.2,width=0.4,color="red", fillcolor="#FFF0F0", style="filled",URL="$a00278.html",tooltip=" "];
+}

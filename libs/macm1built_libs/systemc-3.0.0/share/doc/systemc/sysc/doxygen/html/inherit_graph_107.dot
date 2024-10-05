@@ -1,0 +1,17 @@
+digraph "Graphical Class Hierarchy"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=FreeSans,fontsize=10,labelfontname=FreeSans,labelfontsize=10];
+  node [fontname=FreeSans,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node0 [id="Node000000",label="sc_dt::sc_proxy_traits\l\< sc_lv_base \>",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$a01637.html",tooltip=" "];
+  Node0 -> Node1 [id="edge200_Node000000_Node000001",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node1 [id="Node000001",label="sc_dt::sc_mixed_proxy\l_traits_helper\< X::traits\l_type, Y::traits_type \>",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$a01661.html",tooltip=" "];
+  Node1 -> Node2 [id="edge201_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="sc_dt::sc_proxy_traits\l\< sc_concref\< X, Y \> \>",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$a01673.html",tooltip=" "];
+  Node1 -> Node3 [id="edge202_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="sc_dt::sc_proxy_traits\l\< sc_concref_r\< X, Y \> \>",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$a01669.html",tooltip=" "];
+  Node0 -> Node4 [id="edge203_Node000000_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="sc_dt::sc_mixed_proxy\l_traits_helper\< X, Y \>",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$a01661.html",tooltip=" "];
+}

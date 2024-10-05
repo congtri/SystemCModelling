@@ -1,0 +1,26 @@
+digraph "tlm_core/tlm_1/tlm_analysis/tlm_analysis_fifo.h"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=FreeSans,fontsize=10,labelfontname=FreeSans,labelfontsize=10];
+  node [fontname=FreeSans,fontsize=10,shape=box,height=0.2,width=0.4];
+  Node1 [id="Node000001",label="tlm_core/tlm_1/tlm\l_analysis/tlm_analysis\l_fifo.h",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="tlm_core/tlm_1/tlm\l_req_rsp/tlm_channels\l/tlm_fifo/tlm_fifo.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$a00080.html",tooltip=" "];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="tlm_core/tlm_1/tlm\l_req_rsp/tlm_1_interfaces\l/tlm_fifo_ifs.h",height=0.2,width=0.4,color="red", fillcolor="#FFF0F0", style="filled",URL="$a00065.html",tooltip=" "];
+  Node2 -> Node6 [id="edge3_Node000002_Node000006",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="tlm_core/tlm_1/tlm\l_req_rsp/tlm_channels\l/tlm_fifo/circular_buffer.h",height=0.2,width=0.4,color="red", fillcolor="#FFF0F0", style="filled",URL="$a00074.html",tooltip=" "];
+  Node2 -> Node8 [id="edge4_Node000002_Node000008",color="steelblue1",style="solid",tooltip=" "];
+  Node8 [id="Node000008",label="tlm_core/tlm_1/tlm\l_req_rsp/tlm_channels\l/tlm_fifo/tlm_fifo_put_get.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$a00086.html",tooltip=" "];
+  Node2 -> Node9 [id="edge5_Node000002_Node000009",color="steelblue1",style="solid",tooltip=" "];
+  Node9 [id="Node000009",label="tlm_core/tlm_1/tlm\l_req_rsp/tlm_channels\l/tlm_fifo/tlm_fifo_peek.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$a00083.html",tooltip=" "];
+  Node2 -> Node10 [id="edge6_Node000002_Node000010",color="steelblue1",style="solid",tooltip=" "];
+  Node10 [id="Node000010",label="tlm_core/tlm_1/tlm\l_req_rsp/tlm_channels\l/tlm_fifo/tlm_fifo_resize.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$a00077.html",tooltip=" "];
+  Node1 -> Node11 [id="edge7_Node000001_Node000011",color="steelblue1",style="solid",tooltip=" "];
+  Node11 [id="Node000011",label="tlm_core/tlm_1/tlm\l_analysis/tlm_analysis_if.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$a00104.html",tooltip=" "];
+  Node11 -> Node12 [id="edge8_Node000011_Node000012",color="steelblue1",style="solid",tooltip=" "];
+  Node12 [id="Node000012",label="tlm_core/tlm_1/tlm\l_analysis/tlm_write_if.h",height=0.2,width=0.4,color="red", fillcolor="#FFF0F0", style="filled",URL="$a00113.html",tooltip=" "];
+  Node1 -> Node14 [id="edge9_Node000001_Node000014",color="steelblue1",style="solid",tooltip=" "];
+  Node14 [id="Node000014",label="tlm_core/tlm_1/tlm\l_analysis/tlm_analysis\l_triple.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$a00110.html",tooltip=" "];
+}

@@ -1,0 +1,22 @@
+digraph "sysc/communication/sc_prim_channel.h"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=FreeSans,fontsize=10,labelfontname=FreeSans,labelfontsize=10];
+  node [fontname=FreeSans,fontsize=10,shape=box,height=0.2,width=0.4];
+  Node1 [id="Node000001",label="sysc/communication\l/sc_prim_channel.h",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="sysc/communication\l/sc_fifo.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$a00272.html",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="sysc/communication\l/sc_signal.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$a00296.html",tooltip=" "];
+  Node3 -> Node4 [id="edge3_Node000003_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="sysc/communication\l/sc_buffer.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$a00263.html",tooltip=" "];
+  Node3 -> Node5 [id="edge4_Node000003_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="sysc/communication\l/sc_clock.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$a00266.html",tooltip=" "];
+  Node3 -> Node6 [id="edge5_Node000003_Node000006",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="sysc/communication\l/sc_signal_resolved.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$a00290.html",tooltip=" "];
+  Node3 -> Node7 [id="edge6_Node000003_Node000007",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="sysc/communication\l/sc_signal_rv.h",height=0.2,width=0.4,color="red", fillcolor="#FFF0F0", style="filled",URL="$a00275.html",tooltip=" "];
+  Node1 -> Node9 [id="edge7_Node000001_Node000009",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node9 [id="Node000009",label="sysc/communication\l/sc_stub.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$a00305.html",tooltip=" "];
+}

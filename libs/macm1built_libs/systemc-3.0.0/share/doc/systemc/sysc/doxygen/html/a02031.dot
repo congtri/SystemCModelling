@@ -1,0 +1,20 @@
+digraph "sc_core::sc_cthread_process"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=FreeSans,fontsize=10,labelfontname=FreeSans,labelfontsize=10];
+  node [fontname=FreeSans,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="sc_core::sc_cthread\l_process",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node2 -> Node1 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="sc_core::sc_thread\l_process",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$a02241.html",tooltip=" "];
+  Node3 -> Node2 [id="edge2_Node000002_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="sc_core::sc_process_b",height=0.2,width=0.4,color="red", fillcolor="#FFF0F0", style="filled",URL="$a02157.html",tooltip=" "];
+  Node3 -> Node3 [id="edge3_Node000003_Node000003",dir="back",color="darkorchid3",style="dashed",tooltip=" ",label=" m_exist_p\nm_last_created_process\l_p\nm_runnable_p",fontcolor="grey" ];
+  Node21 -> Node2 [id="edge4_Node000002_Node000021",dir="back",color="darkorchid3",style="dashed",tooltip=" ",label=" m_cor_p",fontcolor="grey" ];
+  Node21 [id="Node000021",label="sc_core::sc_cor",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$a02017.html",tooltip=" "];
+  Node22 -> Node2 [id="edge5_Node000002_Node000022",dir="back",color="darkorchid3",style="dashed",tooltip=" ",label=" m_monitor_q",fontcolor="grey" ];
+  Node22 [id="Node000022",label="std::vector\< sc_core\l::sc_process_monitor * \>",height=0.2,width=0.4,color="red", fillcolor="#FFF0F0", style="filled",tooltip=" "];
+  Node24 -> Node2 [id="edge6_Node000002_Node000024",dir="back",color="darkorchid3",style="dashed",tooltip=" ",label=" m_stack_size",fontcolor="grey" ];
+  Node24 [id="Node000024",label="size_t",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",tooltip=" "];
+}

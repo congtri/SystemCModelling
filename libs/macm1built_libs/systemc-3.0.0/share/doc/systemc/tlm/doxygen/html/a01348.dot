@@ -1,0 +1,19 @@
+digraph "tlm_utils::multi_target_base&lt; BUSWIDTH, TYPES, N, POL &gt;"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=FreeSans,fontsize=10,labelfontname=FreeSans,labelfontsize=10];
+  node [fontname=FreeSans,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="tlm_utils::multi_target\l_base\< BUSWIDTH, TYPES,\l N, POL \>",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node2 -> Node1 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="tlm::tlm_target_socket\l\< 32, tlm::tlm_base_protocol\l_types, 0, sc_core::SC_ONE\l_OR_MORE_BOUND \>",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$a01261.html",tooltip=" "];
+  Node3 -> Node2 [id="edge2_Node000002_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="tlm::tlm_base_target\l_socket\< BUSWIDTH, tlm\l_fw_transport_if\< tlm::\ltlm_base_protocol_types\l \>, tlm_bw_transport_if\<\l tlm::tlm_base_protocol_types\l \>, N, POL \>",height=0.2,width=0.4,color="red", fillcolor="#FFF0F0", style="filled",URL="$a01249.html",tooltip=" "];
+  Node7 -> Node1 [id="edge3_Node000001_Node000007",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="tlm_utils::multi_target\l_base_if\< tlm::tlm_base\l_protocol_types \>",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$a01345.html",tooltip=" "];
+  Node8 -> Node1 [id="edge4_Node000001_Node000008",dir="back",color="darkgreen",style="solid",tooltip=" "];
+  Node8 [id="Node000008",label="tlm_utils::multi_socket_base",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$a01277.html",tooltip=" "];
+  Node9 -> Node8 [id="edge5_Node000008_Node000009",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node9 [id="Node000009",label="tlm_utils::convenience\l_socket_base",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$a01265.html",tooltip=" "];
+}

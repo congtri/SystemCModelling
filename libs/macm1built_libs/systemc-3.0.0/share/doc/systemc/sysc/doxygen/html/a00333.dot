@@ -1,0 +1,31 @@
+digraph "sysc/kernel/sc_wait.h"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=FreeSans,fontsize=10,labelfontname=FreeSans,labelfontsize=10];
+  node [fontname=FreeSans,fontsize=10,shape=box,height=0.2,width=0.4];
+  Node1 [id="Node000001",label="sysc/kernel/sc_wait.h",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="sysc/kernel/sc_simcontext.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$a00377.html",tooltip=" "];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="sysc/kernel/sc_cmnhdr.h",height=0.2,width=0.4,color="red", fillcolor="#FFF0F0", style="filled",URL="$a00428.html",tooltip=" "];
+  Node2 -> Node8 [id="edge3_Node000002_Node000008",color="steelblue1",style="solid",tooltip=" "];
+  Node8 [id="Node000008",label="sysc/kernel/sc_process.h",height=0.2,width=0.4,color="red", fillcolor="#FFF0F0", style="filled",URL="$a00437.html",tooltip=" "];
+  Node2 -> Node22 [id="edge4_Node000002_Node000022",color="steelblue1",style="solid",tooltip=" "];
+  Node22 [id="Node000022",label="sysc/kernel/sc_status.h",height=0.2,width=0.4,color="red", fillcolor="#FFF0F0", style="filled",URL="$a00440.html",tooltip=" "];
+  Node22 -> Node3 [id="edge5_Node000022_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node2 -> Node24 [id="edge6_Node000002_Node000024",color="steelblue1",style="solid",tooltip=" "];
+  Node24 [id="Node000024",label="sysc/kernel/sc_time.h",height=0.2,width=0.4,color="red", fillcolor="#FFF0F0", style="filled",URL="$a00365.html",tooltip=" "];
+  Node2 -> Node44 [id="edge7_Node000002_Node000044",color="steelblue1",style="solid",tooltip=" "];
+  Node44 [id="Node000044",label="sysc/kernel/sc_stage\l_callback_if.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$a00392.html",tooltip=" "];
+  Node44 -> Node3 [id="edge8_Node000044_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node2 -> Node45 [id="edge9_Node000002_Node000045",color="steelblue1",style="solid",tooltip=" "];
+  Node45 [id="Node000045",label="sysc/utils/sc_hash.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$a00224.html",tooltip=" "];
+  Node45 -> Node2 [id="edge10_Node000045_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 -> Node46 [id="edge11_Node000002_Node000046",color="steelblue1",style="solid",tooltip=" "];
+  Node46 [id="Node000046",label="sysc/utils/sc_pq.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$a00197.html",tooltip=" "];
+  Node46 -> Node3 [id="edge12_Node000046_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node2 -> Node47 [id="edge13_Node000002_Node000047",color="steelblue1",style="solid",tooltip=" "];
+  Node47 [id="Node000047",label="sysc/communication\l/sc_host_mutex.h",height=0.2,width=0.4,color="red", fillcolor="#FFF0F0", style="filled",URL="$a00311.html",tooltip=" "];
+  Node47 -> Node3 [id="edge14_Node000047_Node000003",color="steelblue1",style="solid",tooltip=" "];
+}

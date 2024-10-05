@@ -1,0 +1,27 @@
+digraph "sc_core::sc_signal&lt; bool, POL &gt;"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=FreeSans,fontsize=10,labelfontname=FreeSans,labelfontsize=10];
+  node [fontname=FreeSans,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="sc_core::sc_signal\l\< bool, POL \>",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node2 -> Node1 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="sc_core::sc_signal\l_t\< bool, POL \>",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$a01409.html",tooltip=" "];
+  Node3 -> Node2 [id="edge2_Node000002_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="sc_core::sc_signal\l_inout_if\< bool \>",height=0.2,width=0.4,color="red", fillcolor="#FFF0F0", style="filled",URL="$a01441.html",tooltip=" "];
+  Node4 -> Node3 [id="edge3_Node000003_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="sc_core::sc_signal\l_in_if\< bool \>",height=0.2,width=0.4,color="red", fillcolor="#FFF0F0", style="filled",URL="$a01429.html",tooltip=" "];
+  Node7 -> Node2 [id="edge4_Node000002_Node000007",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="sc_core::sc_signal\l_channel",height=0.2,width=0.4,color="red", fillcolor="#FFF0F0", style="filled",URL="$a01405.html",tooltip=" "];
+  Node10 -> Node7 [id="edge5_Node000007_Node000010",dir="back",color="darkorchid3",style="dashed",tooltip=" ",label=" m_change_event_p",fontcolor="grey" ];
+  Node10 [id="Node000010",label="sc_core::sc_event",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$a02053.html",tooltip=" "];
+  Node11 -> Node2 [id="edge6_Node000002_Node000011",dir="back",color="darkgreen",style="solid",tooltip=" "];
+  Node11 [id="Node000011",label="sc_core::sc_writer\l_policy_check\< POL \>",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$a01525.html",tooltip=" "];
+  Node10 -> Node1 [id="edge7_Node000001_Node000010",dir="back",color="darkorchid3",style="dashed",tooltip=" ",label=" m_negedge_event_p\nm_posedge_event_p",fontcolor="grey" ];
+  Node12 -> Node1 [id="edge8_Node000001_Node000012",dir="back",color="darkorchid3",style="dashed",tooltip=" ",label=" m_reset_p",fontcolor="grey" ];
+  Node12 [id="Node000012",label="sc_core::sc_reset",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$a02181.html",tooltip=" "];
+  Node4 -> Node12 [id="edge9_Node000012_Node000004",dir="back",color="darkorchid3",style="dashed",tooltip=" ",label=" m_iface_p",fontcolor="grey" ];
+  Node13 -> Node12 [id="edge10_Node000012_Node000013",dir="back",color="darkorchid3",style="dashed",tooltip=" ",label=" m_targets",fontcolor="grey" ];
+  Node13 [id="Node000013",label="std::vector\< sc_core\l::sc_reset_target \>",height=0.2,width=0.4,color="red", fillcolor="#FFF0F0", style="filled",tooltip=" "];
+}

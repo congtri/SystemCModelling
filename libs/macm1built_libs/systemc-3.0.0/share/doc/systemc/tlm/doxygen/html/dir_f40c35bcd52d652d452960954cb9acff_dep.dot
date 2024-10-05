@@ -1,0 +1,11 @@
+digraph "tlm_utils"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=FreeSans,fontsize=10,labelfontname=FreeSans,labelfontsize=10];
+  node [fontname=FreeSans,fontsize=10,shape=box,height=0.2,width=0.4];
+  compound=true
+  dir_f40c35bcd52d652d452960954cb9acff [label="tlm_utils", fillcolor="#edf0f7", color="grey25", style="filled,bold", URL="dir_f40c35bcd52d652d452960954cb9acff.html",tooltip=""];
+  dir_54d760f7f187686fd9c4b070d5c46b52 [label="tlm_core", fillcolor="#edf0f7", color="red", style="filled", URL="dir_54d760f7f187686fd9c4b070d5c46b52.html",tooltip=""];
+  dir_f40c35bcd52d652d452960954cb9acff->dir_54d760f7f187686fd9c4b070d5c46b52 [headlabel="1", labeldistance=1.5 headhref="dir_000015_000007.html" href="dir_000015_000007.html" color="steelblue1" fontcolor="steelblue1"];
+}

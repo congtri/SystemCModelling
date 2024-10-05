@@ -1,0 +1,23 @@
+digraph "sc_core::sc_prim_channel"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=FreeSans,fontsize=10,labelfontname=FreeSans,labelfontsize=10];
+  node [fontname=FreeSans,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="sc_core::sc_prim_channel",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node2 -> Node1 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="sc_core::sc_object",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$a02125.html",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="sc_core::sc_fifo\< T \>",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$a01313.html",tooltip=" "];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="sc_core::sc_signal\l_channel",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$a01405.html",tooltip=" "];
+  Node4 -> Node5 [id="edge4_Node000004_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="sc_core::sc_signal\l_t\< bool, POL \>",height=0.2,width=0.4,color="red", fillcolor="#FFF0F0", style="filled",URL="$a01409.html",tooltip=" "];
+  Node4 -> Node7 [id="edge5_Node000004_Node000007",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="sc_core::sc_signal\l_t\< sc_dt::sc_logic,\l POL \>",height=0.2,width=0.4,color="red", fillcolor="#FFF0F0", style="filled",URL="$a01409.html",tooltip=" "];
+  Node4 -> Node9 [id="edge6_Node000004_Node000009",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node9 [id="Node000009",label="sc_core::sc_signal\l_t\< T, POL \>",height=0.2,width=0.4,color="red", fillcolor="#FFF0F0", style="filled",URL="$a01409.html",tooltip=" "];
+  Node1 -> Node19 [id="edge7_Node000001_Node000019",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node19 [id="Node000019",label="sc_core::sc_stub\< T \>",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$a01517.html",tooltip=" "];
+}

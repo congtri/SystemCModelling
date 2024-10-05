@@ -1,0 +1,20 @@
+digraph "sysc/datatypes/fx/sc_ufix.h"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=FreeSans,fontsize=10,labelfontname=FreeSans,labelfontsize=10];
+  node [fontname=FreeSans,fontsize=10,shape=box,height=0.2,width=0.4];
+  Node1 [id="Node000001",label="sysc/datatypes/fx/sc\l_ufix.h",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="sysc/datatypes/fx/sc\l_fxnum.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$a00119.html",tooltip=" "];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="sysc/kernel/sc_cmnhdr.h",height=0.2,width=0.4,color="red", fillcolor="#FFF0F0", style="filled",URL="$a00428.html",tooltip=" "];
+  Node2 -> Node8 [id="edge3_Node000002_Node000008",color="steelblue1",style="solid",tooltip=" "];
+  Node8 [id="Node000008",label="sysc/datatypes/bit\l/sc_lv_base.h",height=0.2,width=0.4,color="red", fillcolor="#FFF0F0", style="filled",URL="$a00044.html",tooltip=" "];
+  Node2 -> Node70 [id="edge4_Node000002_Node000070",color="steelblue1",style="solid",tooltip=" "];
+  Node70 [id="Node000070",label="sysc/datatypes/fx/sc\l_fxval.h",height=0.2,width=0.4,color="red", fillcolor="#FFF0F0", style="filled",URL="$a00098.html",tooltip=" "];
+  Node2 -> Node74 [id="edge5_Node000002_Node000074",color="steelblue1",style="solid",tooltip=" "];
+  Node74 [id="Node000074",label="sysc/datatypes/fx/scfx\l_params.h",height=0.2,width=0.4,color="red", fillcolor="#FFF0F0", style="filled",URL="$a00122.html",tooltip=" "];
+  Node2 -> Node79 [id="edge6_Node000002_Node000079",color="steelblue1",style="solid",tooltip=" "];
+  Node79 [id="Node000079",label="sysc/datatypes/fx/sc\l_fxnum_observer.h",height=0.2,width=0.4,color="red", fillcolor="#FFF0F0", style="filled",URL="$a00095.html",tooltip=" "];
+}

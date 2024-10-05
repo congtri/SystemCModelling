@@ -1,0 +1,36 @@
+digraph "sysc/datatypes/fx/fx.h"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=FreeSans,fontsize=10,labelfontname=FreeSans,labelfontsize=10];
+  node [fontname=FreeSans,fontsize=10,shape=box,height=0.2,width=0.4];
+  Node1 [id="Node000001",label="sysc/datatypes/fx/fx.h",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="sysc/datatypes/fx/sc\l_fixed.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$a00107.html",tooltip=" "];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="sysc/datatypes/fx/sc\l_fix.h",height=0.2,width=0.4,color="red", fillcolor="#FFF0F0", style="filled",URL="$a00113.html",tooltip=" "];
+  Node1 -> Node77 [id="edge3_Node000001_Node000077",color="steelblue1",style="solid",tooltip=" "];
+  Node77 [id="Node000077",label="sysc/datatypes/fx/sc\l_fxcast_switch.h",height=0.2,width=0.4,color="red", fillcolor="#FFF0F0", style="filled",URL="$a00104.html",tooltip=" "];
+  Node1 -> Node78 [id="edge4_Node000001_Node000078",color="steelblue1",style="solid",tooltip=" "];
+  Node78 [id="Node000078",label="sysc/datatypes/fx/sc\l_fxtype_params.h",height=0.2,width=0.4,color="red", fillcolor="#FFF0F0", style="filled",URL="$a00077.html",tooltip=" "];
+  Node1 -> Node82 [id="edge5_Node000001_Node000082",color="steelblue1",style="solid",tooltip=" "];
+  Node82 [id="Node000082",label="sysc/datatypes/fx/sc\l_ufixed.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$a00071.html",tooltip=" "];
+  Node82 -> Node83 [id="edge6_Node000082_Node000083",color="steelblue1",style="solid",tooltip=" "];
+  Node83 [id="Node000083",label="sysc/datatypes/fx/sc\l_ufix.h",height=0.2,width=0.4,color="red", fillcolor="#FFF0F0", style="filled",URL="$a00092.html",tooltip=" "];
+  Node1 -> Node84 [id="edge7_Node000001_Node000084",color="steelblue1",style="solid",tooltip=" "];
+  Node84 [id="Node000084",label="sysc/datatypes/fx/scfx\l_other_defs.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$a00083.html",tooltip=" "];
+  Node84 -> Node36 [id="edge8_Node000084_Node000036",color="steelblue1",style="solid",tooltip=" "];
+  Node36 [id="Node000036",label="sysc/datatypes/fx/sc\l_fx_ids.h",height=0.2,width=0.4,color="red", fillcolor="#FFF0F0", style="filled",URL="$a00086.html",tooltip=" "];
+  Node84 -> Node25 [id="edge9_Node000084_Node000025",color="steelblue1",style="solid",tooltip=" "];
+  Node25 [id="Node000025",label="sysc/datatypes/int\l/sc_signed.h",height=0.2,width=0.4,color="red", fillcolor="#FFF0F0", style="filled",URL="$a00128.html",tooltip=" "];
+  Node25 -> Node63 [id="edge10_Node000025_Node000063",color="steelblue1",style="solid",tooltip=" "];
+  Node63 [id="Node000063",label="sysc/datatypes/int\l/sc_unsigned.h",height=0.2,width=0.4,color="red", fillcolor="#FFF0F0", style="filled",URL="$a00176.html",tooltip=" "];
+  Node84 -> Node63 [id="edge11_Node000084_Node000063",color="steelblue1",style="solid",tooltip=" "];
+  Node84 -> Node66 [id="edge12_Node000084_Node000066",color="steelblue1",style="solid",tooltip=" "];
+  Node66 [id="Node000066",label="sysc/datatypes/int\l/sc_int_base.h",height=0.2,width=0.4,color="red", fillcolor="#FFF0F0", style="filled",URL="$a00191.html",tooltip=" "];
+  Node66 -> Node67 [id="edge13_Node000066_Node000067",color="steelblue1",style="solid",tooltip=" "];
+  Node67 [id="Node000067",label="sysc/datatypes/int\l/sc_uint_base.h",height=0.2,width=0.4,color="red", fillcolor="#FFF0F0", style="filled",URL="$a00158.html",tooltip=" "];
+  Node84 -> Node67 [id="edge14_Node000084_Node000067",color="steelblue1",style="solid",tooltip=" "];
+  Node84 -> Node85 [id="edge15_Node000084_Node000085",color="steelblue1",style="solid",tooltip=" "];
+  Node85 [id="Node000085",label="sysc/tracing/sc_trace.h",height=0.2,width=0.4,color="red", fillcolor="#FFF0F0", style="filled",URL="$a00017.html",tooltip=" "];
+}

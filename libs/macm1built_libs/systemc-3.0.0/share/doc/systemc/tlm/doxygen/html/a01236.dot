@@ -1,0 +1,43 @@
+digraph "tlm::tlm_base_socket_if"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=FreeSans,fontsize=10,labelfontname=FreeSans,labelfontsize=10];
+  node [fontname=FreeSans,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="tlm::tlm_base_socket_if",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="tlm::tlm_base_initiator\l_socket_b\< BUSWIDTH, tlm\l_fw_transport_if\< tlm_base\l_protocol_types \>, tlm_bw\l_transport_if\< tlm_base_protocol\l_types \> \>",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$a01241.html",tooltip=" "];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="tlm::tlm_base_initiator\l_socket\< 32, tlm_fw_transport\l_if\< tlm_base_protocol_types\l \>, tlm_bw_transport_if\< tlm\l_base_protocol_types \>, 1, sc\l_core::SC_ONE_OR_MORE_BOUND \>",height=0.2,width=0.4,color="red", fillcolor="#FFF0F0", style="filled",URL="$a01253.html",tooltip=" "];
+  Node1 -> Node5 [id="edge3_Node000001_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="tlm::tlm_base_initiator\l_socket_b\< BUSWIDTH, tlm\l_fw_transport_if\< tlm::tlm\l_base_protocol_types \>, tlm\l_bw_transport_if\< tlm::tlm_base\l_protocol_types \> \>",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$a01241.html",tooltip=" "];
+  Node5 -> Node6 [id="edge4_Node000005_Node000006",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="tlm::tlm_base_initiator\l_socket\< BUSWIDTH, tlm\l_fw_transport_if\< tlm::\ltlm_base_protocol_types\l \>, tlm_bw_transport_if\<\l tlm::tlm_base_protocol_types\l \>, N, POL \>",height=0.2,width=0.4,color="red", fillcolor="#FFF0F0", style="filled",URL="$a01253.html",tooltip=" "];
+  Node1 -> Node25 [id="edge5_Node000001_Node000025",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node25 [id="Node000025",label="tlm::tlm_base_initiator\l_socket_b\< BUSWIDTH, tlm\l_fw_transport_if\< TYPES\l \>, tlm_bw_transport_if\<\l TYPES \> \>",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$a01241.html",tooltip=" "];
+  Node25 -> Node26 [id="edge6_Node000025_Node000026",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node26 [id="Node000026",label="tlm::tlm_base_initiator\l_socket\< BUSWIDTH, tlm\l_fw_transport_if\< TYPES\l \>, tlm_bw_transport_if\l\< TYPES \>, N, POL \>",height=0.2,width=0.4,color="red", fillcolor="#FFF0F0", style="filled",URL="$a01253.html",tooltip=" "];
+  Node1 -> Node30 [id="edge7_Node000001_Node000030",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node30 [id="Node000030",label="tlm::tlm_base_target\l_socket_b\< 32, tlm_fw\l_transport_if\<\>, tlm_bw\l_transport_if\<\> \>",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$a01245.html",tooltip=" "];
+  Node30 -> Node31 [id="edge8_Node000030_Node000031",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node31 [id="Node000031",label="tlm::tlm_base_target\l_socket\< BUSWIDTH, FW\l_IF, BW_IF, N, POL \>",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$a01249.html",tooltip=" "];
+  Node1 -> Node32 [id="edge9_Node000001_Node000032",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node32 [id="Node000032",label="tlm::tlm_base_target\l_socket_b\< BUSWIDTH,\l tlm_fw_transport_if\<\l tlm_base_protocol_types\l \>, tlm_bw_transport_if\<\l tlm_base_protocol_types \> \>",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$a01245.html",tooltip=" "];
+  Node32 -> Node33 [id="edge10_Node000032_Node000033",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node33 [id="Node000033",label="tlm::tlm_base_target\l_socket\< 32, tlm_fw_transport\l_if\< tlm_base_protocol_types\l \>, tlm_bw_transport_if\< tlm\l_base_protocol_types \>, 1, sc\l_core::SC_ONE_OR_MORE_BOUND \>",height=0.2,width=0.4,color="red", fillcolor="#FFF0F0", style="filled",URL="$a01249.html",tooltip=" "];
+  Node1 -> Node35 [id="edge11_Node000001_Node000035",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node35 [id="Node000035",label="tlm::tlm_base_target\l_socket_b\< BUSWIDTH,\l tlm_fw_transport_if\<\l tlm::tlm_base_protocol\l_types \>, tlm_bw_transport\l_if\< tlm::tlm_base_protocol\l_types \> \>",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$a01245.html",tooltip=" "];
+  Node35 -> Node36 [id="edge12_Node000035_Node000036",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node36 [id="Node000036",label="tlm::tlm_base_target\l_socket\< BUSWIDTH, tlm\l_fw_transport_if\< tlm::\ltlm_base_protocol_types\l \>, tlm_bw_transport_if\<\l tlm::tlm_base_protocol_types\l \>, N, POL \>",height=0.2,width=0.4,color="red", fillcolor="#FFF0F0", style="filled",URL="$a01249.html",tooltip=" "];
+  Node1 -> Node63 [id="edge13_Node000001_Node000063",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node63 [id="Node000063",label="tlm::tlm_base_target\l_socket_b\< BUSWIDTH,\l tlm_fw_transport_if\<\l TYPES \>, tlm_bw_transport\l_if\< TYPES \> \>",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$a01245.html",tooltip=" "];
+  Node63 -> Node64 [id="edge14_Node000063_Node000064",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node64 [id="Node000064",label="tlm::tlm_base_target\l_socket\< BUSWIDTH, tlm\l_fw_transport_if\< TYPES\l \>, tlm_bw_transport_if\l\< TYPES \>, N, POL \>",height=0.2,width=0.4,color="red", fillcolor="#FFF0F0", style="filled",URL="$a01249.html",tooltip=" "];
+  Node1 -> Node70 [id="edge15_Node000001_Node000070",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node70 [id="Node000070",label="tlm::tlm_base_initiator\l_socket_b\< BUSWIDTH, FW\l_IF, BW_IF \>",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$a01241.html",tooltip=" "];
+  Node70 -> Node71 [id="edge16_Node000070_Node000071",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node71 [id="Node000071",label="tlm::tlm_base_initiator\l_socket\< BUSWIDTH, FW\l_IF, BW_IF, N, POL \>",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$a01253.html",tooltip=" "];
+  Node1 -> Node72 [id="edge17_Node000001_Node000072",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node72 [id="Node000072",label="tlm::tlm_base_target\l_socket_b\< BUSWIDTH,\l FW_IF, BW_IF \>",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$a01245.html",tooltip=" "];
+}

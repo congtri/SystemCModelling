@@ -1,0 +1,37 @@
+digraph "sysc/tracing/sc_wif_trace.h"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=FreeSans,fontsize=10,labelfontname=FreeSans,labelfontsize=10];
+  node [fontname=FreeSans,fontsize=10,shape=box,height=0.2,width=0.4];
+  Node1 [id="Node000001",label="sysc/tracing/sc_wif\l_trace.h",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="cstdio",height=0.2,width=0.4,color="grey60", fillcolor="#E0E0E0", style="filled",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="sysc/datatypes/int\l/sc_nbdefs.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$a00140.html",tooltip=" "];
+  Node3 -> Node4 [id="edge3_Node000003_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="sysc/kernel/sc_cmnhdr.h",height=0.2,width=0.4,color="red", fillcolor="#FFF0F0", style="filled",URL="$a00428.html",tooltip=" "];
+  Node4 -> Node2 [id="edge4_Node000004_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node3 -> Node8 [id="edge5_Node000003_Node000008",color="steelblue1",style="solid",tooltip=" "];
+  Node8 [id="Node000008",label="climits",height=0.2,width=0.4,color="grey60", fillcolor="#E0E0E0", style="filled",tooltip=" "];
+  Node3 -> Node9 [id="edge6_Node000003_Node000009",color="steelblue1",style="solid",tooltip=" "];
+  Node9 [id="Node000009",label="cstdint",height=0.2,width=0.4,color="grey60", fillcolor="#E0E0E0", style="filled",tooltip=" "];
+  Node3 -> Node10 [id="edge7_Node000003_Node000010",color="steelblue1",style="solid",tooltip=" "];
+  Node10 [id="Node000010",label="sysc/utils/sc_iostream.h",height=0.2,width=0.4,color="red", fillcolor="#FFF0F0", style="filled",URL="$a00236.html",tooltip=" "];
+  Node3 -> Node16 [id="edge8_Node000003_Node000016",color="steelblue1",style="solid",tooltip=" "];
+  Node16 [id="Node000016",label="sysc/utils/sc_string.h",height=0.2,width=0.4,color="red", fillcolor="#FFF0F0", style="filled",URL="$a00203.html",tooltip=" "];
+  Node16 -> Node10 [id="edge9_Node000016_Node000010",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node21 [id="edge10_Node000001_Node000021",color="steelblue1",style="solid",tooltip=" "];
+  Node21 [id="Node000021",label="sysc/tracing/sc_trace\l_file_base.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$a00020.html",tooltip=" "];
+  Node21 -> Node2 [id="edge11_Node000021_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node21 -> Node22 [id="edge12_Node000021_Node000022",color="steelblue1",style="solid",tooltip=" "];
+  Node22 [id="Node000022",label="sysc/kernel/sc_stage\l_callback_if.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$a00392.html",tooltip=" "];
+  Node22 -> Node4 [id="edge13_Node000022_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node21 -> Node23 [id="edge14_Node000021_Node000023",color="steelblue1",style="solid",tooltip=" "];
+  Node23 [id="Node000023",label="sysc/tracing/sc_trace.h",height=0.2,width=0.4,color="red", fillcolor="#FFF0F0", style="filled",URL="$a00017.html",tooltip=" "];
+  Node23 -> Node2 [id="edge15_Node000023_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node23 -> Node3 [id="edge16_Node000023_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node21 -> Node35 [id="edge17_Node000021_Node000035",color="steelblue1",style="solid",tooltip=" "];
+  Node35 [id="Node000035",label="sysc/tracing/sc_tracing\l_ids.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$a00023.html",tooltip=" "];
+  Node35 -> Node4 [id="edge18_Node000035_Node000004",color="steelblue1",style="solid",tooltip=" "];
+}

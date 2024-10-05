@@ -1,0 +1,14 @@
+digraph "tlm_core/tlm_1/tlm_req_rsp/tlm_channels/tlm_fifo"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=FreeSans,fontsize=10,labelfontname=FreeSans,labelfontsize=10];
+  node [fontname=FreeSans,fontsize=10,shape=box,height=0.2,width=0.4];
+  compound=true
+  subgraph clusterdir_6a42bdaa6678bc7e2ea3941dd8076950 {
+    graph [ bgcolor="#edf0f7", pencolor="grey50", label="tlm_channels", fontname=FreeSans,fontsize=10 style="filled,dashed", URL="dir_6a42bdaa6678bc7e2ea3941dd8076950.html",tooltip=""]
+  dir_5f70767138aee3c2ec25bd4f46b07b10 [label="tlm_fifo", fillcolor="#edf0f7", color="grey25", style="filled,bold", URL="dir_5f70767138aee3c2ec25bd4f46b07b10.html",tooltip=""];
+  }
+  dir_7bfea407d87c74d0d6a8a9e31733fb55 [label="tlm_1_interfaces", fillcolor="#edf0f7", color="grey50", style="filled", URL="dir_7bfea407d87c74d0d6a8a9e31733fb55.html",tooltip=""];
+  dir_5f70767138aee3c2ec25bd4f46b07b10->dir_7bfea407d87c74d0d6a8a9e31733fb55 [headlabel="1", labeldistance=1.5 headhref="dir_000008_000001.html" href="dir_000008_000001.html" color="steelblue1" fontcolor="steelblue1"];
+}

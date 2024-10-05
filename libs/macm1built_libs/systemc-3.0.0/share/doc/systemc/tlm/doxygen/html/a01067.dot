@@ -1,0 +1,23 @@
+digraph "tlm::tlm_fifo_get_if&lt; T &gt;"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=FreeSans,fontsize=10,labelfontname=FreeSans,labelfontsize=10];
+  node [fontname=FreeSans,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="tlm::tlm_fifo_get_if\< T \>",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node2 -> Node1 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="tlm::tlm_get_peek_if\< T \>",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$a01057.html",tooltip=" "];
+  Node3 -> Node2 [id="edge2_Node000002_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="tlm::tlm_get_if\< T \>",height=0.2,width=0.4,color="red", fillcolor="#FFF0F0", style="filled",URL="$a01029.html",tooltip=" "];
+  Node7 -> Node2 [id="edge3_Node000002_Node000007",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="tlm::tlm_peek_if\< T \>",height=0.2,width=0.4,color="red", fillcolor="#FFF0F0", style="filled",URL="$a01045.html",tooltip=" "];
+  Node10 -> Node2 [id="edge4_Node000002_Node000010",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node10 [id="Node000010",label="tlm::tlm_blocking_get\l_peek_if\< T \>",height=0.2,width=0.4,color="red", fillcolor="#FFF0F0", style="filled",URL="$a01049.html",tooltip=" "];
+  Node11 -> Node2 [id="edge5_Node000002_Node000011",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node11 [id="Node000011",label="tlm::tlm_nonblocking\l_get_peek_if\< T \>",height=0.2,width=0.4,color="red", fillcolor="#FFF0F0", style="filled",URL="$a01053.html",tooltip=" "];
+  Node12 -> Node1 [id="edge6_Node000001_Node000012",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node12 [id="Node000012",label="tlm::tlm_fifo_debug\l_if\< T \>",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$a01061.html",tooltip=" "];
+  Node5 -> Node12 [id="edge7_Node000012_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="sc_core::sc_interface",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",tooltip=" "];
+}

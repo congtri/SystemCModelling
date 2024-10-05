@@ -1,0 +1,17 @@
+digraph "tlm_utils::convenience_socket_cb_holder"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=FreeSans,fontsize=10,labelfontname=FreeSans,labelfontsize=10];
+  node [fontname=FreeSans,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="tlm_utils::convenience\l_socket_cb_holder",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="darkgreen",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="tlm_utils::callback\l_binder_bw\< tlm::tlm\l_base_protocol_types \>",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$a01333.html",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="darkgreen",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="tlm_utils::callback\l_binder_fw\< tlm::tlm\l_base_protocol_types \>",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$a01329.html",tooltip=" "];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",dir="back",color="darkgreen",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="tlm_utils::callback\l_binder_bw\< TYPES \>",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$a01333.html",tooltip=" "];
+  Node1 -> Node5 [id="edge4_Node000001_Node000005",dir="back",color="darkgreen",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="tlm_utils::callback\l_binder_fw\< TYPES \>",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$a01329.html",tooltip=" "];
+}

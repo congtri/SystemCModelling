@@ -1,0 +1,26 @@
+digraph "sysc/communication/sc_fifo_ports.h"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=FreeSans,fontsize=10,labelfontname=FreeSans,labelfontsize=10];
+  node [fontname=FreeSans,fontsize=10,shape=box,height=0.2,width=0.4];
+  Node1 [id="Node000001",label="sysc/communication\l/sc_fifo_ports.h",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="sysc/communication\l/sc_port.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$a00281.html",tooltip=" "];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="typeindex",height=0.2,width=0.4,color="grey60", fillcolor="#E0E0E0", style="filled",tooltip=" "];
+  Node2 -> Node4 [id="edge3_Node000002_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="sysc/communication\l/sc_communication_ids.h",height=0.2,width=0.4,color="red", fillcolor="#FFF0F0", style="filled",URL="$a00323.html",tooltip=" "];
+  Node2 -> Node14 [id="edge4_Node000002_Node000014",color="steelblue1",style="solid",tooltip=" "];
+  Node14 [id="Node000014",label="sysc/communication\l/sc_interface.h",height=0.2,width=0.4,color="red", fillcolor="#FFF0F0", style="filled",URL="$a00302.html",tooltip=" "];
+  Node2 -> Node15 [id="edge5_Node000002_Node000015",color="steelblue1",style="solid",tooltip=" "];
+  Node15 [id="Node000015",label="sysc/kernel/sc_event.h",height=0.2,width=0.4,color="red", fillcolor="#FFF0F0", style="filled",URL="$a00398.html",tooltip=" "];
+  Node2 -> Node20 [id="edge6_Node000002_Node000020",color="steelblue1",style="solid",tooltip=" "];
+  Node20 [id="Node000020",label="sysc/kernel/sc_object.h",height=0.2,width=0.4,color="red", fillcolor="#FFF0F0", style="filled",URL="$a00380.html",tooltip=" "];
+  Node2 -> Node18 [id="edge7_Node000002_Node000018",color="steelblue1",style="solid",tooltip=" "];
+  Node18 [id="Node000018",label="sysc/kernel/sc_process.h",height=0.2,width=0.4,color="red", fillcolor="#FFF0F0", style="filled",URL="$a00437.html",tooltip=" "];
+  Node18 -> Node20 [id="edge8_Node000018_Node000020",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node55 [id="edge9_Node000001_Node000055",color="steelblue1",style="solid",tooltip=" "];
+  Node55 [id="Node000055",label="sysc/communication\l/sc_fifo_ifs.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$a00269.html",tooltip=" "];
+  Node55 -> Node14 [id="edge10_Node000055_Node000014",color="steelblue1",style="solid",tooltip=" "];
+}

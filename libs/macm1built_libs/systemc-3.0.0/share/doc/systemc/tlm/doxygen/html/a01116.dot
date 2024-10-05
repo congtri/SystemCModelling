@@ -1,0 +1,23 @@
+digraph "tlm::tlm_fifo&lt; T &gt;"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=FreeSans,fontsize=10,labelfontname=FreeSans,labelfontsize=10];
+  node [fontname=FreeSans,fontsize=10,shape=box,height=0.2,width=0.4];
+  Node1 [id="Node000001",label="tlm::tlm_fifo\< T \>",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node2 -> Node1 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="tlm::tlm_fifo_get_if\< T \>",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$a01069.html",tooltip=" "];
+  Node3 -> Node2 [id="edge2_Node000002_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="tlm::tlm_get_peek_if\< T \>",height=0.2,width=0.4,color="red", fillcolor="#FFF0F0", style="filled",URL="$a01057.html",tooltip=" "];
+  Node13 -> Node2 [id="edge3_Node000002_Node000013",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node13 [id="Node000013",label="tlm::tlm_fifo_debug\l_if\< T \>",height=0.2,width=0.4,color="red", fillcolor="#FFF0F0", style="filled",URL="$a01061.html",tooltip=" "];
+  Node14 -> Node1 [id="edge4_Node000001_Node000014",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node14 [id="Node000014",label="tlm::tlm_fifo_put_if\< T \>",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$a01065.html",tooltip=" "];
+  Node15 -> Node14 [id="edge5_Node000014_Node000015",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node15 [id="Node000015",label="tlm::tlm_put_if\< T \>",height=0.2,width=0.4,color="red", fillcolor="#FFF0F0", style="filled",URL="$a01033.html",tooltip=" "];
+  Node13 -> Node14 [id="edge6_Node000014_Node000013",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node18 -> Node1 [id="edge7_Node000001_Node000018",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node18 [id="Node000018",label="sc_core::sc_prim_channel",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",tooltip=" "];
+  Node1 -> Node19 [id="edge8_Node000001_Node000019",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node19 [id="Node000019",label="tlm::tlm_analysis_fifo\< T \>",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$a00981.html",tooltip=" "];
+}

@@ -1,0 +1,29 @@
+digraph "sysc/utils/sc_report_handler.h"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=FreeSans,fontsize=10,labelfontname=FreeSans,labelfontsize=10];
+  node [fontname=FreeSans,fontsize=10,shape=box,height=0.2,width=0.4];
+  Node1 [id="Node000001",label="sysc/utils/sc_report\l_handler.h",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="sysc/utils/sc_report.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$a00212.html",tooltip=" "];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="sysc/communication\l/sc_communication_ids.h",height=0.2,width=0.4,color="red", fillcolor="#FFF0F0", style="filled",URL="$a00323.html",tooltip=" "];
+  Node2 -> Node82 [id="edge3_Node000002_Node000082",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node82 [id="Node000082",label="sysc/datatypes/bit\l/sc_bit_ids.h",height=0.2,width=0.4,color="red", fillcolor="#FFF0F0", style="filled",URL="$a00038.html",tooltip=" "];
+  Node82 -> Node83 [id="edge4_Node000082_Node000083",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node83 [id="Node000083",label="sysc/datatypes/int\l/sc_nbutils.h",height=0.2,width=0.4,color="red", fillcolor="#FFF0F0", style="filled",URL="$a00149.html",tooltip=" "];
+  Node2 -> Node96 [id="edge5_Node000002_Node000096",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node96 [id="Node000096",label="sysc/datatypes/fx/sc\l_fx_ids.h",height=0.2,width=0.4,color="red", fillcolor="#FFF0F0", style="filled",URL="$a00086.html",tooltip=" "];
+  Node2 -> Node97 [id="edge6_Node000002_Node000097",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node97 [id="Node000097",label="sysc/datatypes/int\l/sc_int_ids.h",height=0.2,width=0.4,color="red", fillcolor="#FFF0F0", style="filled",URL="$a00161.html",tooltip=" "];
+  Node97 -> Node83 [id="edge7_Node000097_Node000083",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 -> Node83 [id="edge8_Node000002_Node000083",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 -> Node98 [id="edge9_Node000002_Node000098",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node98 [id="Node000098",label="sysc/kernel/sc_kernel\l_ids.h",height=0.2,width=0.4,color="red", fillcolor="#FFF0F0", style="filled",URL="$a00386.html",tooltip=" "];
+  Node2 -> Node99 [id="edge10_Node000002_Node000099",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node99 [id="Node000099",label="sysc/utils/sc_stop\l_here.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$a00200.html",tooltip=" "];
+  Node2 -> Node100 [id="edge11_Node000002_Node000100",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node100 [id="Node000100",label="sysc/utils/sc_string.h",height=0.2,width=0.4,color="red", fillcolor="#FFF0F0", style="filled",URL="$a00203.html",tooltip=" "];
+  Node100 -> Node83 [id="edge12_Node000100_Node000083",dir="back",color="steelblue1",style="solid",tooltip=" "];
+}

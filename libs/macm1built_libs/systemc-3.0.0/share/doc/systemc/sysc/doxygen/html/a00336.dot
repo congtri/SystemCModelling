@@ -1,0 +1,55 @@
+digraph "sysc/kernel/sc_initializer_function.h"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=FreeSans,fontsize=10,labelfontname=FreeSans,labelfontsize=10];
+  node [fontname=FreeSans,fontsize=10,shape=box,height=0.2,width=0.4];
+  Node1 [id="Node000001",label="sysc/kernel/sc_initializer\l_function.h",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="sysc/kernel/sc_cmnhdr.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$a00428.html",tooltip=" "];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="cassert",height=0.2,width=0.4,color="grey60", fillcolor="#E0E0E0", style="filled",tooltip=" "];
+  Node2 -> Node4 [id="edge3_Node000002_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="cstdio",height=0.2,width=0.4,color="grey60", fillcolor="#E0E0E0", style="filled",tooltip=" "];
+  Node2 -> Node5 [id="edge4_Node000002_Node000005",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="cstdlib",height=0.2,width=0.4,color="grey60", fillcolor="#E0E0E0", style="filled",tooltip=" "];
+  Node2 -> Node6 [id="edge5_Node000002_Node000006",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="vector",height=0.2,width=0.4,color="grey60", fillcolor="#E0E0E0", style="filled",tooltip=" "];
+  Node1 -> Node7 [id="edge6_Node000001_Node000007",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="sysc/kernel/sc_macros.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$a00374.html",tooltip=" "];
+  Node7 -> Node2 [id="edge7_Node000007_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node8 [id="edge8_Node000001_Node000008",color="steelblue1",style="solid",tooltip=" "];
+  Node8 [id="Node000008",label="sysc/kernel/sc_module.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$a00341.html",tooltip=" "];
+  Node8 -> Node9 [id="edge9_Node000008_Node000009",color="steelblue1",style="solid",tooltip=" "];
+  Node9 [id="Node000009",label="sysc/kernel/sc_kernel\l_ids.h",height=0.2,width=0.4,color="red", fillcolor="#FFF0F0", style="filled",URL="$a00386.html",tooltip=" "];
+  Node8 -> Node7 [id="edge10_Node000008_Node000007",color="steelblue1",style="solid",tooltip=" "];
+  Node8 -> Node14 [id="edge11_Node000008_Node000014",color="steelblue1",style="solid",tooltip=" "];
+  Node14 [id="Node000014",label="sysc/kernel/sc_module\l_name.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$a00371.html",tooltip=" "];
+  Node14 -> Node2 [id="edge12_Node000014_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node14 -> Node15 [id="edge13_Node000014_Node000015",color="steelblue1",style="solid",tooltip=" "];
+  Node15 [id="Node000015",label="functional",height=0.2,width=0.4,color="grey60", fillcolor="#E0E0E0", style="filled",tooltip=" "];
+  Node8 -> Node16 [id="edge14_Node000008_Node000016",color="steelblue1",style="solid",tooltip=" "];
+  Node16 [id="Node000016",label="sysc/kernel/sc_process.h",height=0.2,width=0.4,color="red", fillcolor="#FFF0F0", style="filled",URL="$a00437.html",tooltip=" "];
+  Node16 -> Node9 [id="edge15_Node000016_Node000009",color="steelblue1",style="solid",tooltip=" "];
+  Node8 -> Node25 [id="edge16_Node000008_Node000025",color="steelblue1",style="solid",tooltip=" "];
+  Node25 [id="Node000025",label="sysc/kernel/sc_process\l_handle.h",height=0.2,width=0.4,color="red", fillcolor="#FFF0F0", style="filled",URL="$a00329.html",tooltip=" "];
+  Node25 -> Node2 [id="edge17_Node000025_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node25 -> Node16 [id="edge18_Node000025_Node000016",color="steelblue1",style="solid",tooltip=" "];
+  Node8 -> Node26 [id="edge19_Node000008_Node000026",color="steelblue1",style="solid",tooltip=" "];
+  Node26 [id="Node000026",label="sysc/kernel/sc_sensitive.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$a00419.html",tooltip=" "];
+  Node26 -> Node16 [id="edge20_Node000026_Node000016",color="steelblue1",style="solid",tooltip=" "];
+  Node8 -> Node27 [id="edge21_Node000008_Node000027",color="steelblue1",style="solid",tooltip=" "];
+  Node27 [id="Node000027",label="sysc/kernel/sc_time.h",height=0.2,width=0.4,color="red", fillcolor="#FFF0F0", style="filled",URL="$a00365.html",tooltip=" "];
+  Node8 -> Node47 [id="edge22_Node000008_Node000047",color="steelblue1",style="solid",tooltip=" "];
+  Node47 [id="Node000047",label="sysc/kernel/sc_wait.h",height=0.2,width=0.4,color="red", fillcolor="#FFF0F0", style="filled",URL="$a00332.html",tooltip=" "];
+  Node8 -> Node57 [id="edge23_Node000008_Node000057",color="steelblue1",style="solid",tooltip=" "];
+  Node57 [id="Node000057",label="sysc/kernel/sc_wait\l_cthread.h",height=0.2,width=0.4,color="red", fillcolor="#FFF0F0", style="filled",URL="$a00389.html",tooltip=" "];
+  Node8 -> Node61 [id="edge24_Node000008_Node000061",color="steelblue1",style="solid",tooltip=" "];
+  Node61 [id="Node000061",label="sysc/utils/sc_list.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$a00233.html",tooltip=" "];
+  Node61 -> Node2 [id="edge25_Node000061_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node8 -> Node62 [id="edge26_Node000008_Node000062",color="steelblue1",style="solid",tooltip=" "];
+  Node62 [id="Node000062",label="type_traits",height=0.2,width=0.4,color="grey60", fillcolor="#E0E0E0", style="filled",tooltip=" "];
+  Node1 -> Node15 [id="edge27_Node000001_Node000015",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node63 [id="edge28_Node000001_Node000063",color="steelblue1",style="solid",tooltip=" "];
+  Node63 [id="Node000063",label="utility",height=0.2,width=0.4,color="grey60", fillcolor="#E0E0E0", style="filled",tooltip=" "];
+}

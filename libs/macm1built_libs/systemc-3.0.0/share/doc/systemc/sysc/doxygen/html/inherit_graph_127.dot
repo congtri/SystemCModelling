@@ -1,0 +1,15 @@
+digraph "Graphical Class Hierarchy"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=FreeSans,fontsize=10,labelfontname=FreeSans,labelfontsize=10];
+  node [fontname=FreeSans,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node0 [id="Node000000",label="std::basic_string_view\l\< Char \>",height=0.2,width=0.4,color="grey60", fillcolor="#E0E0E0", style="filled",tooltip=" "];
+  Node0 -> Node1 [id="edge209_Node000000_Node000001",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node1 [id="Node000001",label="std::string_view",height=0.2,width=0.4,color="grey60", fillcolor="#E0E0E0", style="filled",tooltip=" "];
+  Node1 -> Node2 [id="edge210_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="sc_core::sc_string_view",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$a02369.html",tooltip="non-owning, constant reference to a string"];
+  Node2 -> Node3 [id="edge211_Node000002_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="sc_core::sc_zstring_view",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$a02377.html",tooltip="non-owning, constant reference to null-terminated string"];
+}

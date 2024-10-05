@@ -1,0 +1,50 @@
+digraph "sysc/communication/sc_writer_policy.h"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=FreeSans,fontsize=10,labelfontname=FreeSans,labelfontsize=10];
+  node [fontname=FreeSans,fontsize=10,shape=box,height=0.2,width=0.4];
+  Node1 [id="Node000001",label="sysc/communication\l/sc_writer_policy.h",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="sysc/communication\l/sc_signal.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$a00296.html",tooltip=" "];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="sysc/communication\l/sc_buffer.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$a00263.html",tooltip=" "];
+  Node2 -> Node4 [id="edge3_Node000002_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="sysc/communication\l/sc_clock.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$a00266.html",tooltip=" "];
+  Node2 -> Node5 [id="edge4_Node000002_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="sysc/communication\l/sc_signal_resolved.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$a00290.html",tooltip=" "];
+  Node2 -> Node6 [id="edge5_Node000002_Node000006",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="sysc/communication\l/sc_signal_rv.h",height=0.2,width=0.4,color="red", fillcolor="#FFF0F0", style="filled",URL="$a00275.html",tooltip=" "];
+  Node1 -> Node8 [id="edge6_Node000001_Node000008",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node8 [id="Node000008",label="sysc/communication\l/sc_signal_ifs.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$a00278.html",tooltip=" "];
+  Node8 -> Node2 [id="edge7_Node000008_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node8 -> Node9 [id="edge8_Node000008_Node000009",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node9 [id="Node000009",label="sysc/communication\l/sc_signal_ports.h",height=0.2,width=0.4,color="red", fillcolor="#FFF0F0", style="filled",URL="$a00287.html",tooltip=" "];
+  Node8 -> Node22 [id="edge9_Node000008_Node000022",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node22 [id="Node000022",label="sysc/communication\l/sc_stub.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$a00305.html",tooltip=" "];
+  Node1 -> Node23 [id="edge10_Node000001_Node000023",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node23 [id="Node000023",label="sysc/kernel/sc_event.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$a00398.html",tooltip=" "];
+  Node23 -> Node24 [id="edge11_Node000023_Node000024",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node24 [id="Node000024",label="sysc/communication\l/sc_event_queue.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$a00299.html",tooltip=" "];
+  Node23 -> Node25 [id="edge12_Node000023_Node000025",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node25 [id="Node000025",label="sysc/communication\l/sc_fifo.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$a00272.html",tooltip=" "];
+  Node23 -> Node26 [id="edge13_Node000023_Node000026",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node26 [id="Node000026",label="sysc/communication\l/sc_mutex.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$a00284.html",tooltip=" "];
+  Node23 -> Node27 [id="edge14_Node000023_Node000027",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node27 [id="Node000027",label="sysc/communication\l/sc_port.h",height=0.2,width=0.4,color="red", fillcolor="#FFF0F0", style="filled",URL="$a00281.html",tooltip=" "];
+  Node27 -> Node24 [id="edge15_Node000027_Node000024",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node27 -> Node2 [id="edge16_Node000027_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node27 -> Node9 [id="edge17_Node000027_Node000009",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node23 -> Node30 [id="edge18_Node000023_Node000030",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node30 [id="Node000030",label="sysc/communication\l/sc_semaphore.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$a00251.html",tooltip=" "];
+  Node23 -> Node2 [id="edge19_Node000023_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node23 -> Node13 [id="edge20_Node000023_Node000013",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node13 [id="Node000013",label="sysc/kernel/sc_method\l_process.h",height=0.2,width=0.4,color="red", fillcolor="#FFF0F0", style="filled",URL="$a00404.html",tooltip=" "];
+  Node23 -> Node20 [id="edge21_Node000023_Node000020",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node20 [id="Node000020",label="sysc/kernel/sc_thread\l_process.h",height=0.2,width=0.4,color="red", fillcolor="#FFF0F0", style="filled",URL="$a00356.html",tooltip=" "];
+  Node1 -> Node31 [id="edge22_Node000001_Node000031",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node31 [id="Node000031",label="sysc/kernel/sc_reset.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$a00359.html",tooltip=" "];
+  Node31 -> Node20 [id="edge23_Node000031_Node000020",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node32 [id="edge24_Node000001_Node000032",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node32 [id="Node000032",label="sysc/kernel/sc_ver.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$a00326.html",tooltip=" "];
+}

@@ -1,0 +1,31 @@
+digraph "tlm_core/tlm_1/tlm_req_rsp/tlm_req_rsp.h"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=FreeSans,fontsize=10,labelfontname=FreeSans,labelfontsize=10];
+  node [fontname=FreeSans,fontsize=10,shape=box,height=0.2,width=0.4];
+  Node1 [id="Node000001",label="tlm_core/tlm_1/tlm\l_req_rsp/tlm_req_rsp.h",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="tlm_core/tlm_1/tlm\l_req_rsp/tlm_1_interfaces\l/tlm_core_ifs.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$a00068.html",tooltip=" "];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="tlm_core/tlm_1/tlm\l_req_rsp/tlm_1_interfaces\l/tlm_tag.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$a00071.html",tooltip=" "];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="tlm_core/tlm_1/tlm\l_req_rsp/tlm_1_interfaces\l/tlm_master_slave_ifs.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$a00062.html",tooltip=" "];
+  Node4 -> Node2 [id="edge4_Node000004_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node5 [id="edge5_Node000001_Node000005",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="tlm_core/tlm_1/tlm\l_req_rsp/tlm_channels\l/tlm_req_rsp_channels\l/tlm_req_rsp_channels.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$a00089.html",tooltip=" "];
+  Node5 -> Node6 [id="edge6_Node000005_Node000006",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="tlm_core/tlm_1/tlm\l_req_rsp/tlm_adapters\l/tlm_adapters.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$a00095.html",tooltip=" "];
+  Node6 -> Node4 [id="edge7_Node000006_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node5 -> Node7 [id="edge8_Node000005_Node000007",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="tlm_core/tlm_1/tlm\l_req_rsp/tlm_channels\l/tlm_fifo/tlm_fifo.h",height=0.2,width=0.4,color="red", fillcolor="#FFF0F0", style="filled",URL="$a00080.html",tooltip=" "];
+  Node5 -> Node14 [id="edge9_Node000005_Node000014",color="steelblue1",style="solid",tooltip=" "];
+  Node14 [id="Node000014",label="tlm_core/tlm_1/tlm\l_req_rsp/tlm_channels\l/tlm_req_rsp_channels\l/tlm_put_get_imp.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$a00092.html",tooltip=" "];
+  Node14 -> Node4 [id="edge10_Node000014_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node15 [id="edge11_Node000001_Node000015",color="steelblue1",style="solid",tooltip=" "];
+  Node15 [id="Node000015",label="tlm_core/tlm_1/tlm\l_req_rsp/tlm_ports/tlm\l_nonblocking_port.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$a00098.html",tooltip=" "];
+  Node15 -> Node2 [id="edge12_Node000015_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node15 -> Node16 [id="edge13_Node000015_Node000016",color="steelblue1",style="solid",tooltip=" "];
+  Node16 [id="Node000016",label="tlm_core/tlm_1/tlm\l_req_rsp/tlm_ports/tlm\l_event_finder.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$a00101.html",tooltip=" "];
+  Node16 -> Node3 [id="edge14_Node000016_Node000003",color="steelblue1",style="solid",tooltip=" "];
+}

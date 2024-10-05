@@ -1,0 +1,14 @@
+# Ignore build folder and all its contents
+build/
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore same files (just like cache files)
+*.swp
+*.swo
+*.swn
+.DS_Store

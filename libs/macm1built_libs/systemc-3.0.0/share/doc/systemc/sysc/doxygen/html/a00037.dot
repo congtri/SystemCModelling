@@ -1,0 +1,57 @@
+digraph "sysc/datatypes/bit/sc_logic.h"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=FreeSans,fontsize=10,labelfontname=FreeSans,labelfontsize=10];
+  node [fontname=FreeSans,fontsize=10,shape=box,height=0.2,width=0.4];
+  Node1 [id="Node000001",label="sysc/datatypes/bit\l/sc_logic.h",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="sysc/communication\l/sc_signal.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$a00296.html",tooltip=" "];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="sysc/communication\l/sc_buffer.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$a00263.html",tooltip=" "];
+  Node2 -> Node4 [id="edge3_Node000002_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="sysc/communication\l/sc_clock.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$a00266.html",tooltip=" "];
+  Node2 -> Node5 [id="edge4_Node000002_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="sysc/communication\l/sc_signal_resolved.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$a00290.html",tooltip=" "];
+  Node2 -> Node6 [id="edge5_Node000002_Node000006",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="sysc/communication\l/sc_signal_rv.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$a00275.html",tooltip=" "];
+  Node6 -> Node7 [id="edge6_Node000006_Node000007",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="sysc/communication\l/sc_signal_rv_ports.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$a00320.html",tooltip=" "];
+  Node1 -> Node8 [id="edge7_Node000001_Node000008",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node8 [id="Node000008",label="sysc/communication\l/sc_signal_ports.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$a00287.html",tooltip=" "];
+  Node8 -> Node9 [id="edge8_Node000008_Node000009",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node9 [id="Node000009",label="sysc/communication\l/sc_clock_ports.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$a00293.html",tooltip=" "];
+  Node8 -> Node10 [id="edge9_Node000008_Node000010",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node10 [id="Node000010",label="sysc/communication\l/sc_signal_resolved\l_ports.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$a00254.html",tooltip=" "];
+  Node8 -> Node7 [id="edge10_Node000008_Node000007",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node8 -> Node11 [id="edge11_Node000008_Node000011",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node11 [id="Node000011",label="sysc/kernel/sc_spawn\l_options.h",height=0.2,width=0.4,color="red", fillcolor="#FFF0F0", style="filled",URL="$a00395.html",tooltip=" "];
+  Node1 -> Node10 [id="edge12_Node000001_Node000010",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node21 [id="edge13_Node000001_Node000021",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node21 [id="Node000021",label="sysc/communication\l/sc_stub.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$a00305.html",tooltip=" "];
+  Node1 -> Node22 [id="edge14_Node000001_Node000022",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node22 [id="Node000022",label="sysc/datatypes/bit\l/sc_lv_base.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$a00044.html",tooltip=" "];
+  Node22 -> Node23 [id="edge15_Node000022_Node000023",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node23 [id="Node000023",label="sysc/datatypes/bit\l/sc_lv.h",height=0.2,width=0.4,color="red", fillcolor="#FFF0F0", style="filled",URL="$a00050.html",tooltip=" "];
+  Node23 -> Node6 [id="edge16_Node000023_Node000006",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node23 -> Node7 [id="edge17_Node000023_Node000007",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node22 -> Node25 [id="edge18_Node000022_Node000025",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node25 [id="Node000025",label="sysc/datatypes/fx/sc\l_fxnum.h",height=0.2,width=0.4,color="red", fillcolor="#FFF0F0", style="filled",URL="$a00119.html",tooltip=" "];
+  Node1 -> Node31 [id="edge19_Node000001_Node000031",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node31 [id="Node000031",label="sysc/datatypes/bit\l/sc_proxy.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$a00047.html",tooltip=" "];
+  Node31 -> Node32 [id="edge20_Node000031_Node000032",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node32 [id="Node000032",label="sysc/datatypes/bit\l/sc_bit_proxies.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$a00056.html",tooltip=" "];
+  Node32 -> Node33 [id="edge21_Node000032_Node000033",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node33 [id="Node000033",label="sysc/datatypes/bit\l/sc_bv_base.h",height=0.2,width=0.4,color="red", fillcolor="#FFF0F0", style="filled",URL="$a00053.html",tooltip=" "];
+  Node33 -> Node22 [id="edge22_Node000033_Node000022",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node31 -> Node33 [id="edge23_Node000031_Node000033",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node35 [id="edge24_Node000001_Node000035",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node35 [id="Node000035",label="sysc/kernel/sc_wait\l_cthread.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$a00389.html",tooltip=" "];
+  Node35 -> Node36 [id="edge25_Node000035_Node000036",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node36 [id="Node000036",label="sysc/communication\l/sc_prim_channel.h",height=0.2,width=0.4,color="red", fillcolor="#FFF0F0", style="filled",URL="$a00242.html",tooltip=" "];
+  Node36 -> Node2 [id="edge26_Node000036_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node36 -> Node21 [id="edge27_Node000036_Node000021",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node35 -> Node38 [id="edge28_Node000035_Node000038",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node38 [id="Node000038",label="sysc/kernel/sc_module.h",height=0.2,width=0.4,color="red", fillcolor="#FFF0F0", style="filled",URL="$a00341.html",tooltip=" "];
+  Node38 -> Node4 [id="edge29_Node000038_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+}

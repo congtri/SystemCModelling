@@ -1,0 +1,22 @@
+digraph "tlm_utils::multi_passthrough_initiator_socket_optional&lt; MODULE, BUSWIDTH, TYPES, N &gt;"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=FreeSans,fontsize=10,labelfontname=FreeSans,labelfontsize=10];
+  node [fontname=FreeSans,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="tlm_utils::multi_passthrough\l_initiator_socket_optional\l\< MODULE, BUSWIDTH, TYPES, N \>",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node2 -> Node1 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="tlm_utils::multi_passthrough\l_initiator_socket\< MODULE,\l 32, tlm::tlm_base_protocol\l_types, 0, sc_core::SC_ZERO\l_OR_MORE_BOUND \>",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$a01309.html",tooltip=" "];
+  Node3 -> Node2 [id="edge2_Node000002_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="tlm_utils::multi_init\l_base\< BUSWIDTH, tlm\l::tlm_base_protocol_types,\l N, POL \>",height=0.2,width=0.4,color="red", fillcolor="#FFF0F0", style="filled",URL="$a01341.html",tooltip=" "];
+  Node12 -> Node2 [id="edge3_Node000002_Node000012",dir="back",color="darkorchid3",style="dashed",tooltip=" ",label=" m_sockets\nm_used_sockets",fontcolor="grey" ];
+  Node12 [id="Node000012",label="std::vector\< tlm::tlm\l_fw_transport_if\< tlm\l::tlm_base_protocol_types \> * \>",height=0.2,width=0.4,color="red", fillcolor="#FFF0F0", style="filled",tooltip=" "];
+  Node19 -> Node2 [id="edge4_Node000002_Node000019",dir="back",color="darkorchid3",style="dashed",tooltip=" ",label=" m_binders",fontcolor="grey" ];
+  Node19 [id="Node000019",label="std::vector\< tlm_utils\l::callback_binder_bw\<\l tlm::tlm_base_protocol\l_types \> * \>",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",tooltip=" "];
+  Node20 -> Node19 [id="edge5_Node000019_Node000020",dir="back",color="darkorchid3",style="dashed",tooltip=" ",label=" elements",fontcolor="grey" ];
+  Node20 [id="Node000020",label="tlm_utils::callback\l_binder_bw\< tlm::tlm\l_base_protocol_types \>",height=0.2,width=0.4,color="red", fillcolor="#FFF0F0", style="filled",URL="$a01333.html",tooltip=" "];
+  Node25 -> Node2 [id="edge6_Node000002_Node000025",dir="back",color="darkorchid3",style="dashed",tooltip=" ",label=" m_hierarch_bind",fontcolor="grey" ];
+  Node25 [id="Node000025",label="tlm_utils::multi_init\l_base\< BUSWIDTH, TYPES,\l N, POL \>",height=0.2,width=0.4,color="red", fillcolor="#FFF0F0", style="filled",URL="$a01341.html",tooltip=" "];
+  Node20 -> Node2 [id="edge7_Node000002_Node000020",dir="back",color="darkorchid3",style="dashed",tooltip=" ",label=" m_dmi_f\nm_dummy\nm_nb_f",fontcolor="grey" ];
+}

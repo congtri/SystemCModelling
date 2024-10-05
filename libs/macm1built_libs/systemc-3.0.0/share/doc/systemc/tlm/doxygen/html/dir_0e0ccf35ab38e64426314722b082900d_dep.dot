@@ -1,0 +1,14 @@
+digraph "tlm_core/tlm_1/tlm_req_rsp/tlm_ports"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=FreeSans,fontsize=10,labelfontname=FreeSans,labelfontsize=10];
+  node [fontname=FreeSans,fontsize=10,shape=box,height=0.2,width=0.4];
+  compound=true
+  subgraph clusterdir_f5e56409712e0b002f6bb0ff6be3b762 {
+    graph [ bgcolor="#edf0f7", pencolor="grey50", label="tlm_req_rsp", fontname=FreeSans,fontsize=10 style="filled,dashed", URL="dir_f5e56409712e0b002f6bb0ff6be3b762.html",tooltip=""]
+  dir_7bfea407d87c74d0d6a8a9e31733fb55 [label="tlm_1_interfaces", fillcolor="#a2b4d6", color="grey25", style="filled", URL="dir_7bfea407d87c74d0d6a8a9e31733fb55.html",tooltip=""];
+  dir_0e0ccf35ab38e64426314722b082900d [label="tlm_ports", fillcolor="#edf0f7", color="grey25", style="filled,bold", URL="dir_0e0ccf35ab38e64426314722b082900d.html",tooltip=""];
+  }
+  dir_0e0ccf35ab38e64426314722b082900d->dir_7bfea407d87c74d0d6a8a9e31733fb55 [headlabel="2", labeldistance=1.5 headhref="dir_000010_000001.html" href="dir_000010_000001.html" color="steelblue1" fontcolor="steelblue1"];
+}

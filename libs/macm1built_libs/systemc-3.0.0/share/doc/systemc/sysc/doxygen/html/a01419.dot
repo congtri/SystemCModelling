@@ -1,0 +1,22 @@
+digraph "sc_core::sc_signal&lt; sc_dt::sc_logic, POL &gt;"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=FreeSans,fontsize=10,labelfontname=FreeSans,labelfontsize=10];
+  node [fontname=FreeSans,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="sc_core::sc_signal\l\< sc_dt::sc_logic, POL \>",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node2 -> Node1 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="sc_core::sc_signal\l_t\< sc_dt::sc_logic,\l POL \>",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$a01409.html",tooltip=" "];
+  Node3 -> Node2 [id="edge2_Node000002_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="sc_core::sc_signal\l_inout_if\< sc_dt::sc\l_logic \>",height=0.2,width=0.4,color="red", fillcolor="#FFF0F0", style="filled",URL="$a01441.html",tooltip=" "];
+  Node7 -> Node2 [id="edge3_Node000002_Node000007",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="sc_core::sc_signal\l_channel",height=0.2,width=0.4,color="red", fillcolor="#FFF0F0", style="filled",URL="$a01405.html",tooltip=" "];
+  Node10 -> Node7 [id="edge4_Node000007_Node000010",dir="back",color="darkorchid3",style="dashed",tooltip=" ",label=" m_change_event_p",fontcolor="grey" ];
+  Node10 [id="Node000010",label="sc_core::sc_event",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$a02053.html",tooltip=" "];
+  Node11 -> Node2 [id="edge5_Node000002_Node000011",dir="back",color="darkgreen",style="solid",tooltip=" "];
+  Node11 [id="Node000011",label="sc_core::sc_writer\l_policy_check\< POL \>",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$a01525.html",tooltip=" "];
+  Node12 -> Node2 [id="edge6_Node000002_Node000012",dir="back",color="darkorchid3",style="dashed",tooltip=" ",label=" m_cur_val\nm_new_val",fontcolor="grey" ];
+  Node12 [id="Node000012",label="sc_dt::sc_logic",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$a01613.html",tooltip=" "];
+  Node10 -> Node1 [id="edge7_Node000001_Node000010",dir="back",color="darkorchid3",style="dashed",tooltip=" ",label=" m_negedge_event_p\nm_posedge_event_p",fontcolor="grey" ];
+}

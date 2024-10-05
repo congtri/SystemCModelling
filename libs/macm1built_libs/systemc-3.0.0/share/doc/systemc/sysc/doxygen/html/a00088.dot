@@ -1,0 +1,33 @@
+digraph "sysc/datatypes/fx/sc_fx_ids.h"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=FreeSans,fontsize=10,labelfontname=FreeSans,labelfontsize=10];
+  node [fontname=FreeSans,fontsize=10,shape=box,height=0.2,width=0.4];
+  Node1 [id="Node000001",label="sysc/datatypes/fx/sc\l_fx_ids.h",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="sysc/datatypes/fx/sc\l_context.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$a00059.html",tooltip=" "];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="sysc/datatypes/fx/sc\l_fxcast_switch.h",height=0.2,width=0.4,color="red", fillcolor="#FFF0F0", style="filled",URL="$a00104.html",tooltip=" "];
+  Node3 -> Node5 [id="edge3_Node000003_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="sysc/datatypes/fx/scfx\l_params.h",height=0.2,width=0.4,color="red", fillcolor="#FFF0F0", style="filled",URL="$a00122.html",tooltip=" "];
+  Node5 -> Node14 [id="edge4_Node000005_Node000014",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node14 [id="Node000014",label="sysc/datatypes/fx/scfx\l_utils.h",height=0.2,width=0.4,color="red", fillcolor="#FFF0F0", style="filled",URL="$a00116.html",tooltip=" "];
+  Node2 -> Node16 [id="edge5_Node000002_Node000016",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node16 [id="Node000016",label="sysc/datatypes/fx/sc\l_fxtype_params.h",height=0.2,width=0.4,color="red", fillcolor="#FFF0F0", style="filled",URL="$a00077.html",tooltip=" "];
+  Node16 -> Node5 [id="edge6_Node000016_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 -> Node17 [id="edge7_Node000002_Node000017",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node17 [id="Node000017",label="sysc/datatypes/int\l/sc_length_param.h",height=0.2,width=0.4,color="red", fillcolor="#FFF0F0", style="filled",URL="$a00173.html",tooltip=" "];
+  Node1 -> Node36 [id="edge8_Node000001_Node000036",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node36 [id="Node000036",label="sysc/datatypes/fx/sc\l_fxdefs.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$a00101.html",tooltip=" "];
+  Node36 -> Node37 [id="edge9_Node000036_Node000037",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node37 [id="Node000037",label="sysc/datatypes/fx/sc\l_fxnum_observer.h",height=0.2,width=0.4,color="red", fillcolor="#FFF0F0", style="filled",URL="$a00095.html",tooltip=" "];
+  Node36 -> Node38 [id="edge10_Node000036_Node000038",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node38 [id="Node000038",label="sysc/datatypes/fx/sc\l_fxval_observer.h",height=0.2,width=0.4,color="red", fillcolor="#FFF0F0", style="filled",URL="$a00065.html",tooltip=" "];
+  Node36 -> Node39 [id="edge11_Node000036_Node000039",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node39 [id="Node000039",label="sysc/datatypes/fx/scfx\l_ieee.h",height=0.2,width=0.4,color="red", fillcolor="#FFF0F0", style="filled",URL="$a00110.html",tooltip=" "];
+  Node36 -> Node14 [id="edge12_Node000036_Node000014",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node28 [id="edge13_Node000001_Node000028",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node28 [id="Node000028",label="sysc/datatypes/fx/scfx\l_other_defs.h",height=0.2,width=0.4,color="red", fillcolor="#FFF0F0", style="filled",URL="$a00083.html",tooltip=" "];
+  Node1 -> Node5 [id="edge14_Node000001_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+}

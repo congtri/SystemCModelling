@@ -1,0 +1,21 @@
+digraph "tlm_core/tlm_2"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=FreeSans,fontsize=10,labelfontname=FreeSans,labelfontsize=10];
+  node [fontname=FreeSans,fontsize=10,shape=box,height=0.2,width=0.4];
+  compound=true
+  subgraph clusterdir_54d760f7f187686fd9c4b070d5c46b52 {
+    graph [ bgcolor="#edf0f7", pencolor="grey25", label="tlm_core", fontname=FreeSans,fontsize=10 style="filled,dashed", URL="dir_54d760f7f187686fd9c4b070d5c46b52.html",tooltip=""]
+  subgraph clusterdir_9345038caee142a641c3808e66796fc4 {
+    graph [ bgcolor="#edf0f7", pencolor="grey25", label="", fontname=FreeSans,fontsize=10 style="filled,bold", URL="dir_9345038caee142a641c3808e66796fc4.html",tooltip=""]
+    dir_9345038caee142a641c3808e66796fc4 [shape=plaintext, label="tlm_2"];
+  dir_2b672b167c117538c64dd28adfbb585e [label="tlm_2_interfaces", fillcolor="#a2b4d6", color="grey25", style="filled", URL="dir_2b672b167c117538c64dd28adfbb585e.html",tooltip=""];
+  dir_c71f0c876475a7748a1d7bf643718c97 [label="tlm_generic_payload", fillcolor="#a2b4d6", color="grey25", style="filled", URL="dir_c71f0c876475a7748a1d7bf643718c97.html",tooltip=""];
+  dir_cfd40c4c39d823af6ff63a228b6dcd82 [label="tlm_quantum", fillcolor="#a2b4d6", color="grey25", style="filled", URL="dir_cfd40c4c39d823af6ff63a228b6dcd82.html",tooltip=""];
+  dir_96e45f98180611878bfbaabd973454d0 [label="tlm_sockets", fillcolor="#a2b4d6", color="grey25", style="filled", URL="dir_96e45f98180611878bfbaabd973454d0.html",tooltip=""];
+  }
+  }
+  dir_2b672b167c117538c64dd28adfbb585e->dir_c71f0c876475a7748a1d7bf643718c97 [headlabel="1", labeldistance=1.5 headhref="dir_000003_000009.html" href="dir_000003_000009.html" color="steelblue1" fontcolor="steelblue1"];
+  dir_96e45f98180611878bfbaabd973454d0->dir_2b672b167c117538c64dd28adfbb585e [headlabel="2", labeldistance=1.5 headhref="dir_000014_000003.html" href="dir_000014_000003.html" color="steelblue1" fontcolor="steelblue1"];
+}

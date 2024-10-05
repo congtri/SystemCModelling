@@ -1,0 +1,55 @@
+digraph "sc_core::sc_port_base"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=FreeSans,fontsize=10,labelfontname=FreeSans,labelfontsize=10];
+  node [fontname=FreeSans,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="sc_core::sc_port_base",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node2 -> Node1 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="sc_core::sc_object",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$a02125.html",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="sc_core::sc_port_b\l\< sc_fifo_in_if\< T \> \>",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$a01381.html",tooltip=" "];
+  Node3 -> Node4 [id="edge3_Node000003_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="sc_core::sc_port\< sc\l_fifo_in_if\< T \>, 0,\l SC_ONE_OR_MORE_BOUND \>",height=0.2,width=0.4,color="red", fillcolor="#FFF0F0", style="filled",URL="$a01385.html",tooltip=" "];
+  Node1 -> Node6 [id="edge4_Node000001_Node000006",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="sc_core::sc_port_b\l\< sc_fifo_out_if\< T \> \>",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$a01381.html",tooltip=" "];
+  Node6 -> Node7 [id="edge5_Node000006_Node000007",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="sc_core::sc_port\< sc\l_fifo_out_if\< T \>, 0,\l SC_ONE_OR_MORE_BOUND \>",height=0.2,width=0.4,color="red", fillcolor="#FFF0F0", style="filled",URL="$a01385.html",tooltip=" "];
+  Node1 -> Node9 [id="edge6_Node000001_Node000009",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node9 [id="Node000009",label="sc_core::sc_port_b\l\< sc_signal_in_if\< T \> \>",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$a01381.html",tooltip=" "];
+  Node9 -> Node10 [id="edge7_Node000009_Node000010",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node10 [id="Node000010",label="sc_core::sc_port\< sc\l_signal_in_if\< T \>, 1,\l SC_ONE_OR_MORE_BOUND \>",height=0.2,width=0.4,color="red", fillcolor="#FFF0F0", style="filled",URL="$a01385.html",tooltip=" "];
+  Node1 -> Node12 [id="edge8_Node000001_Node000012",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node12 [id="Node000012",label="sc_core::sc_port_b\l\< sc_signal_in_if\< bool \> \>",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$a01381.html",tooltip=" "];
+  Node12 -> Node13 [id="edge9_Node000012_Node000013",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node13 [id="Node000013",label="sc_core::sc_port\< sc\l_signal_in_if\< bool \>\l, 1, SC_ONE_OR_MORE_BOUND \>",height=0.2,width=0.4,color="red", fillcolor="#FFF0F0", style="filled",URL="$a01385.html",tooltip=" "];
+  Node1 -> Node15 [id="edge10_Node000001_Node000015",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node15 [id="Node000015",label="sc_core::sc_port_b\l\< sc_signal_in_if\< sc\l_dt::sc_logic \> \>",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$a01381.html",tooltip=" "];
+  Node15 -> Node16 [id="edge11_Node000015_Node000016",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node16 [id="Node000016",label="sc_core::sc_port\< sc\l_signal_in_if\< sc_dt\l::sc_logic \>, 1, SC_ONE\l_OR_MORE_BOUND \>",height=0.2,width=0.4,color="red", fillcolor="#FFF0F0", style="filled",URL="$a01385.html",tooltip=" "];
+  Node1 -> Node19 [id="edge12_Node000001_Node000019",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node19 [id="Node000019",label="sc_core::sc_port_b\l\< sc_signal_in_if\< sc\l_dt::sc_lv\< W \> \> \>",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$a01381.html",tooltip=" "];
+  Node19 -> Node20 [id="edge13_Node000019_Node000020",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node20 [id="Node000020",label="sc_core::sc_port\< sc\l_signal_in_if\< sc_dt\l::sc_lv\< W \> \>, 1, SC\l_ONE_OR_MORE_BOUND \>",height=0.2,width=0.4,color="red", fillcolor="#FFF0F0", style="filled",URL="$a01385.html",tooltip=" "];
+  Node1 -> Node23 [id="edge14_Node000001_Node000023",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node23 [id="Node000023",label="sc_core::sc_port_b\l\< sc_signal_inout_if\l\< T \> \>",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$a01381.html",tooltip=" "];
+  Node23 -> Node24 [id="edge15_Node000023_Node000024",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node24 [id="Node000024",label="sc_core::sc_port\< sc\l_signal_inout_if\< T \>\l, 1, SC_ONE_OR_MORE_BOUND \>",height=0.2,width=0.4,color="red", fillcolor="#FFF0F0", style="filled",URL="$a01385.html",tooltip=" "];
+  Node1 -> Node28 [id="edge16_Node000001_Node000028",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node28 [id="Node000028",label="sc_core::sc_port_b\l\< sc_signal_inout_if\l\< bool \> \>",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$a01381.html",tooltip=" "];
+  Node28 -> Node29 [id="edge17_Node000028_Node000029",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node29 [id="Node000029",label="sc_core::sc_port\< sc\l_signal_inout_if\< bool\l \>, 1, SC_ONE_OR_MORE_BOUND \>",height=0.2,width=0.4,color="red", fillcolor="#FFF0F0", style="filled",URL="$a01385.html",tooltip=" "];
+  Node1 -> Node31 [id="edge18_Node000001_Node000031",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node31 [id="Node000031",label="sc_core::sc_port_b\l\< sc_signal_inout_if\l\< sc_dt::sc_logic \> \>",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$a01381.html",tooltip=" "];
+  Node31 -> Node32 [id="edge19_Node000031_Node000032",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node32 [id="Node000032",label="sc_core::sc_port\< sc\l_signal_inout_if\< sc\l_dt::sc_logic \>, 1, SC\l_ONE_OR_MORE_BOUND \>",height=0.2,width=0.4,color="red", fillcolor="#FFF0F0", style="filled",URL="$a01385.html",tooltip=" "];
+  Node1 -> Node36 [id="edge20_Node000001_Node000036",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node36 [id="Node000036",label="sc_core::sc_port_b\l\< sc_signal_inout_if\l\< sc_dt::sc_lv\< W \> \> \>",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$a01381.html",tooltip=" "];
+  Node36 -> Node37 [id="edge21_Node000036_Node000037",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node37 [id="Node000037",label="sc_core::sc_port\< sc\l_signal_inout_if\< sc\l_dt::sc_lv\< W \> \>, 1,\l SC_ONE_OR_MORE_BOUND \>",height=0.2,width=0.4,color="red", fillcolor="#FFF0F0", style="filled",URL="$a01385.html",tooltip=" "];
+  Node1 -> Node41 [id="edge22_Node000001_Node000041",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node41 [id="Node000041",label="sc_core::sc_port_b\l\< IF \>",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$a01381.html",tooltip=" "];
+  Node41 -> Node42 [id="edge23_Node000041_Node000042",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node42 [id="Node000042",label="sc_core::sc_port\< IF,\l N, P \>",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$a01385.html",tooltip=" "];
+}
