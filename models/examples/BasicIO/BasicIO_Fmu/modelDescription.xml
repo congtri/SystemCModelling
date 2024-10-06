@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fmiModelDescription
+    fmiVersion                  ="2.0"
+    modelName                   ="BasicIO"
+    guid                        ="{798cc6d0-05de-d69c-1072-0027646049ae}"
+    modelIdentifier             ="BasicIO"
+    generationTool              ="My Hand"
+    generationDateAndTime       ="2024-04-27T12:00:00Z"
+    variableNamingConvention    ="flat">
+    
+    <CoSimulation modelIdentifier="BasicIO">
+        <SourceFiles>
+            <sourceFile name="fmu_wrapper.cpp"/>
+            <sourceFile name="BasicIO.cpp"/>
+            <!-- Add other source files if necessary -->
+        </SourceFiles>
+    </CoSimulation>
+
+    <ModelVariables>
+        <ScalarVariable name="input_pin" valueReference="0" variability="continuous" causality="input">
+            <Boolean/>
+        </ScalarVariable>
+        <ScalarVariable name="output_pin" valueReference="1" variability="continuous" causality="output">
+            <Boolean/>
+        </ScalarVariable>
+    </ModelVariables>
+</fmiModelDescription>
