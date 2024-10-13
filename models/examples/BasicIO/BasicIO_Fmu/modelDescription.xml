@@ -1,27 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <fmiModelDescription
-    fmiVersion                  ="2.0"
-    modelName                   ="BasicIO"
-    guid                        ="{798cc6d0-05de-d69c-1072-0027646049ae}"
-    modelIdentifier             ="BasicIO"
-    generationTool              ="My Hand"
-    generationDateAndTime       ="2024-04-27T12:00:00Z"
-    variableNamingConvention    ="flat">
-    
-    <CoSimulation modelIdentifier="BasicIO">
+    fmiVersion="2.0"
+    modelName="BasicIO_Fmu"
+    guid="{8c4e810f-3df3-4a00-8276-176fa3c9f9e0}"
+    numberOfEventIndicators="0">
+
+    <CoSimulation
+        modelIdentifier="BasicIO_Fmu"
+        canHandleVariableCommunicationStepSize="true"
+        canInterpolateInputs="false"
+        canBeInstantiatedOnlyOncePerProcess="false"
+        canNotUseMemoryManagementFunctions="false"
+        canGetAndSetFMUstate="false"
+        canSerializeFMUstate="false"
+        providesDirectionalDerivative="false"
+        needsExecutionTool="false">
         <SourceFiles>
-            <sourceFile name="fmu_wrapper.cpp"/>
-            <sourceFile name="BasicIO.cpp"/>
-            <!-- Add other source files if necessary -->
+            <File name="fmu_wrapper.cpp" />
         </SourceFiles>
     </CoSimulation>
 
     <ModelVariables>
-        <ScalarVariable name="input_pin" valueReference="0" variability="continuous" causality="input">
+        <!-- Output Variable -->
+        <ScalarVariable name="output_signal" valueReference="1" causality="output" variability="discrete">
             <Boolean/>
         </ScalarVariable>
-        <ScalarVariable name="output_pin" valueReference="1" variability="continuous" causality="output">
-            <Boolean/>
+
+        <!-- Input Variable -->
+        <ScalarVariable name="input_signal" valueReference="0" causality="input" variability="discrete">
+            <Boolean start="false"/>
         </ScalarVariable>
     </ModelVariables>
+
+    <ModelStructure>
+        <Outputs>
+            <Unknown index="1"/> <!-- Change this index to match the valueReference of output_signal -->
+        </Outputs>
+        <InitialUnknowns>
+            <Unknown index="1"/> <!-- Add InitialUnknowns that matches the output_signal -->
+        </InitialUnknowns>
+    </ModelStructure>
+
 </fmiModelDescription>

@@ -8,7 +8,6 @@ BasicIO::BasicIO(sc_core::sc_module_name name) : input_pin("INPUT_PIN"), output_
 
 BasicIO::~BasicIO()
 {
-
 }
 
 void BasicIO::ioHandling(void)

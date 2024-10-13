@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.10)
 
-set(PROJECT_NAME "BasicIO")
+set(PROJECT_NAME "BasicIO_Fmu")
 
 project(${PROJECT_NAME})
 
@@ -15,7 +15,7 @@ set(SYSTEMC_MODEL_DIR "../BasicIO_Model")
 # Include directories
 include_directories(
     ${SYSTEMC_HOME}/include
-    ${SYSTEMC_MODEL_DIR}  # For BasicIO.h
+    ${SYSTEMC_MODEL_DIR}  # For BasicIO.hpp
 )
 
 # Link directories
@@ -23,7 +23,7 @@ link_directories(
     ${SYSTEMC_HOME}/lib
 )
 
-# Add your source files
+# Add your source files without main.cpp
 add_library(${PROJECT_NAME} SHARED
     fmu_wrapper.cpp
     ${SYSTEMC_MODEL_DIR}/BasicIO.cpp  # Include your SystemC model source

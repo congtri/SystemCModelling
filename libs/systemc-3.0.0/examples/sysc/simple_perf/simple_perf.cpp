@@ -41,7 +41,7 @@
                      suspended waiting to write to the fifo.
                      On average, the producer block produces
                      one character every 100 ns (unless suspended by
-                     the fifo) since a random linear distribution is 
+                     the fifo) since a random linear distribution is
                      used for the character count.
 
                      If the fifo size is sufficiently large, the average
@@ -51,13 +51,13 @@
                      the average transfer time will increase because
                      the producer will sometimes be suspended when
                      it writes (due to a full fifo) and the consumer
-                     will sometimes be suspended when it reads 
+                     will sometimes be suspended when it reads
                      (due to an empty fifo).
 
                      The fifo size can be set via a command line argument
                      when running this program. By default, the fifo size
                      is 10. When the design is simulated, one hundred
-                     thousand characters are transferred from the 
+                     thousand characters are transferred from the
                      producer to the consumer and then performance
                      statistics are displayed.
 
@@ -83,169 +83,170 @@
 
  *****************************************************************************/
 
-
 #include <systemc.h>
 
 class write_if : virtual public sc_interface
 {
-  public:
-    virtual void write(char) = 0;
-    virtual void reset() = 0;
+public:
+  virtual void write(char) = 0;
+  virtual void reset() = 0;
 };
 
 class read_if : virtual public sc_interface
 {
-  public:
-    virtual void read(char &) = 0;
-    virtual int num_available() = 0;
+public:
+  virtual void read(char &) = 0;
+  virtual int num_available() = 0;
 };
 
 class fifo : public sc_channel, public write_if, public read_if
 {
-  public:
-    fifo(sc_module_name name, int size_) : sc_channel(name), size(size_)
-    {
-	data = new char[size];
-	num_elements = first = 0;
-	num_read = max_used = average = 0;
-        last_time = SC_ZERO_TIME;
-    }
+public:
+  fifo(sc_module_name name, int size_) : sc_channel(name), size(size_)
+  {
+    data = new char[size];
+    num_elements = first = 0;
+    num_read = max_used = average = 0;
+    last_time = SC_ZERO_TIME;
+  }
 
-    ~fifo()
-    {
-      delete[] data;
+  ~fifo()
+  {
+    delete[] data;
 
-      cout << endl << "Fifo size is: " << size << endl;
-      cout << "Average fifo fill depth: " << 
-		double(average) / num_read << endl;
-      cout << "Maximum fifo fill depth: " << max_used << endl;
-      cout << "Average transfer time per character: " 
-		<< last_time / num_read << endl;
-      cout << "Total characters transferred: " << num_read << endl;
-      cout << "Total time: " << last_time << endl;
-    }
+    cout << endl
+         << "Fifo size is: " << size << endl;
+    cout << "Average fifo fill depth: " << double(average) / num_read << endl;
+    cout << "Maximum fifo fill depth: " << max_used << endl;
+    cout << "Average transfer time per character: "
+         << last_time / num_read << endl;
+    cout << "Total characters transferred: " << num_read << endl;
+    cout << "Total time: " << last_time << endl;
+  }
 
-    void write(char c) {
-      if (num_elements == size)
-        wait(read_event);
+  void write(char c)
+  {
+    if (num_elements == size)
+      wait(read_event);
 
-      data[(first + num_elements) % size] = c;
-      ++ num_elements;
-      write_event.notify();
-    }
+    data[(first + num_elements) % size] = c;
+    ++num_elements;
+    write_event.notify();
+  }
 
-    void read(char &c){
-      last_time = sc_time_stamp();
-      if (num_elements == 0)
-        wait(write_event);
+  void read(char &c)
+  {
+    last_time = sc_time_stamp();
+    if (num_elements == 0)
+      wait(write_event);
 
-      compute_stats();
+    compute_stats();
 
-      c = data[first];
-      -- num_elements;
-      first = (first + 1) % size;
-      read_event.notify();
-    }
+    c = data[first];
+    --num_elements;
+    first = (first + 1) % size;
+    read_event.notify();
+  }
 
-    void reset() { num_elements = first = 0; }
+  void reset() { num_elements = first = 0; }
 
-    int num_available() { return num_elements;}
+  int num_available() { return num_elements; }
 
-  private:
-    char *data;
-    int num_elements, first;
-    sc_event write_event, read_event;
-    int size, num_read, max_used, average;
-    sc_time last_time;
+private:
+  char *data;
+  int num_elements, first;
+  sc_event write_event, read_event;
+  int size, num_read, max_used, average;
+  sc_time last_time;
 
-    void compute_stats()
-    {
-      average += num_elements;
+  void compute_stats()
+  {
+    average += num_elements;
 
-      if (num_elements > max_used)
-         max_used = num_elements;
+    if (num_elements > max_used)
+      max_used = num_elements;
 
-      ++num_read;
-    }
+    ++num_read;
+  }
 };
 
 class producer : public sc_module
 {
-  public:
-    sc_port<write_if> out;
+public:
+  sc_port<write_if> out;
 
+  producer(sc_module_name name) : sc_module(name)
+  {
+    SC_THREAD(main);
+  }
 
-    producer(sc_module_name name) : sc_module(name)
+  void main()
+  {
+    const char *str =
+        "Visit www.accellera.org and see what SystemC can do for you today!\n";
+    const char *p = str;
+    int total = 100000;
+
+    while (true)
     {
-      SC_THREAD(main);
-    }
+      int i = 1 + int(19.0 * rand() / RAND_MAX); //  1 <= i <= 19
 
-    void main()
-    {
-      const char *str =
-	"Visit www.accellera.org and see what SystemC can do for you today!\n";
-      const char *p = str;
-      int total = 100000;
-
-      while (true)
+      while (--i >= 0)
       {
-	int i = 1 + int(19.0 * rand() / RAND_MAX);  //  1 <= i <= 19
-
-	while (--i >= 0)
-	{
-          out->write(*p++);
-	  if (!*p) p = str;
-	  -- total;
-	}
-
-	if (total <= 0)
-	  break;
-
-	wait(1000, SC_NS);
+        out->write(*p++);
+        if (!*p)
+          p = str;
+        --total;
       }
+
+      if (total <= 0)
+        break;
+
+      wait(1000, SC_NS);
     }
+  }
 };
 
 class consumer : public sc_module
 {
-  public:
-    sc_port<read_if> in;
+public:
+  sc_port<read_if> in;
 
-    consumer(sc_module_name name) : sc_module(name)
+  consumer(sc_module_name name) : sc_module(name)
+  {
+    SC_THREAD(main);
+  }
+
+  void main()
+  {
+    char c;
+
+    while (true)
     {
-      SC_THREAD(main);
+      in->read(c);
+      wait(100, SC_NS);
     }
-
-    void main()
-    {
-      char c;
-
-      while (true) {
-        in->read(c);
-	wait(100, SC_NS);
-      }
-    }
+  }
 };
 
 class top : public sc_module
 {
-  public:
-    fifo fifo_inst;
-    producer prod_inst;
-    consumer cons_inst;
+public:
+  fifo fifo_inst;
+  producer prod_inst;
+  consumer cons_inst;
 
-    top(sc_module_name name, int size) :
-        sc_module(name) ,
-	fifo_inst("Fifo1", size) , 
-	prod_inst("Producer1") , 
-	cons_inst("Consumer1")
-    {
-      prod_inst.out(fifo_inst);
-      cons_inst.in(fifo_inst);
-    }
+  top(sc_module_name name, int size) : sc_module(name),
+                                       fifo_inst("Fifo1", size),
+                                       prod_inst("Producer1"),
+                                       cons_inst("Consumer1")
+  {
+    prod_inst.out(fifo_inst);
+    cons_inst.in(fifo_inst);
+  }
 };
 
-int sc_main (int argc , char *argv[]) 
+int sc_main(int argc, char *argv[])
 {
   int size = 10;
 

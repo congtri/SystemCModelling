@@ -36,53 +36,53 @@
 
  *****************************************************************************/
 
-
 #include <stdlib.h>
 #include <time.h>
 #include "sender.h"
 
-void sender:: entry()
+void sender::entry()
 {
-   pkt pkt_data;
-   sc_uint<4> dest;
+  pkt pkt_data;
+  sc_uint<4> dest;
 
-   srand((unsigned)time(NULL));
-   wait(8);
-   while(true)
-     {
-       /////generate an 8-bit random value for data//////////
-       pkt_data.data = rand()%255;
+  srand((unsigned)time(NULL));
+  wait(8);
+  while (true)
+  {
+    /////generate an 8-bit random value for data//////////
+    pkt_data.data = rand() % 255;
 
-       ////stamp the sender's id
-       pkt_data.id = source_id.read();
+    ////stamp the sender's id
+    pkt_data.id = source_id.read();
 
-      
-       /////send it to 1 or more(<=4) destinations//////////////
-       dest = rand()%15 + 1;
-       pkt_data.dest0 = dest[0];
-       pkt_data.dest1 = dest[1]; 
-       pkt_data.dest2 = dest[2];
-       pkt_data.dest3 = dest[3];
+    /////send it to 1 or more(<=4) destinations//////////////
+    dest = rand() % 15 + 1;
+    pkt_data.dest0 = dest[0];
+    pkt_data.dest1 = dest[1];
+    pkt_data.dest2 = dest[2];
+    pkt_data.dest3 = dest[3];
 
-       pkt_out.write(pkt_data);
+    pkt_out.write(pkt_data);
 
-        cout << ".........................." << endl;
-	cout << "New Packet Sent" << endl;
-	cout << "Destination Addresses: ";
-        if (dest[0]) cout << 1 << " " ;
-        if (dest[1]) cout << 2 << " ";
-        if (dest[2]) cout << 3 << " ";
-	if (dest[3]) cout << 4 << " ";
-        cout << endl;
-	cout << "Packet Value: " << (int)pkt_data.data << endl;
-	cout << "Sender ID: " << (int)source_id.read() + 1 << endl;
-	cout << ".........................." << endl;      
-       
-       wait(); 
+    cout << ".........................." << endl;
+    cout << "New Packet Sent" << endl;
+    cout << "Destination Addresses: ";
+    if (dest[0])
+      cout << 1 << " ";
+    if (dest[1])
+      cout << 2 << " ";
+    if (dest[2])
+      cout << 3 << " ";
+    if (dest[3])
+      cout << 4 << " ";
+    cout << endl;
+    cout << "Packet Value: " << (int)pkt_data.data << endl;
+    cout << "Sender ID: " << (int)source_id.read() + 1 << endl;
+    cout << ".........................." << endl;
 
-       /////wait for 1 to 3 clock periods/////////////////////
-       wait(1+(rand()%3));
-     }
+    wait();
 
+    /////wait for 1 to 3 clock periods/////////////////////
+    wait(1 + (rand() % 3));
+  }
 }
- 
